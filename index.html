@@ -1,35 +1,93 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>My Dashboard</title>
+  <title>Operations Dashboard</title>
   <style>
-    body { font-family: Arial, sans-serif; padding: 20px; background-color: #f8f9fa; }
-    h1 { color: #2874f0; } /* Flipkart Blue */
-    .data-box { background: white; padding: 15px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin-bottom: 20px; }
-    pre { white-space: pre-wrap; word-wrap: break-word; }
+    body { 
+      font-family: Arial, sans-serif; 
+      padding: 20px; 
+      background-color: #f8f9fa; 
+    }
+    h1, h2 { 
+      color: #2874f0; /* Flipkart Blue */
+    }
+    
+    /* Table Styling */
+    .table-container {
+      overflow-x: auto;
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      white-space: nowrap;
+    }
+    th, td {
+      border: 1px solid #e0e0e0;
+      padding: 12px 15px;
+      text-align: left;
+      font-size: 14px;
+    }
+    th {
+      background-color: #2874f0;
+      color: white;
+      font-weight: bold;
+    }
+    /* Highlights the timestamp row */
+    tr:nth-child(1) td { 
+      background-color: #ffeb3b; 
+      font-weight: bold; 
+      text-align: center;
+    }
+    tr:nth-child(even) { background-color: #f9f9f9; }
+    tr:hover { background-color: #f1f8ff; }
   </style>
 </head>
 <body>
   <h1>Operations Dashboard</h1>
-  <p>Live sync from Google Sheets successfully connected.</p>
   
-  <div class="data-box">
-    <h3>Raw Data Feed:</h3>
-    <pre id="data-display">Fetching data from repository...</pre>
+  <h2>Top Sellers Not Picked</h2>
+  <div class="table-container">
+    <table id="sellers-table">
+      <!-- JavaScript will inject the table rows here -->
+    </table>
   </div>
 
   <script>
     async function loadDashboard() {
       try {
-        // Fetches the JSON file sitting next to this HTML file in the repository
         const response = await fetch('./data.json');
         const data = await response.json();
         
-        // Prints the raw data on your webpage
-        document.getElementById('data-display').textContent = JSON.stringify(data, null, 2);
+        // Targets the specific tab shown in your screenshot
+        const sheetData = data["Top Sellers Not Picked"];
+        const table = document.getElementById('sellers-table');
+        
+        let tableHTML = "";
+        
+        // Loops through the Google Sheets rows
+        sheetData.forEach((row, rowIndex) => {
+          tableHTML += "<tr>";
+          
+          // Loops through the columns in each row
+          row.forEach(cellText => {
+            // Your screenshot shows row index 1 has the actual column headers
+            if (rowIndex === 1) {
+              tableHTML += <th>${cellText}</th>;
+            } else {
+              tableHTML += <td>${cellText}</td>;
+            }
+          });
+          
+          tableHTML += "</tr>";
+        });
+        
+        table.innerHTML = tableHTML;
         
       } catch (error) {
-        document.getElementById('data-display').textContent = "Error loading data. Make sure data.json exists.";
+        document.getElementById('sellers-table').innerHTML = "<tr><td>Error loading data. Check data.json connection.</td></tr>";
       }
     }
     
