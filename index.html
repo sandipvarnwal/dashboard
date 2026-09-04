@@ -5,76 +5,59 @@
   <style>
     body { 
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
-      padding: 20px; 
+      padding: 10px; 
       background-color: #f1f3f6; 
       margin: 0; 
     }
-    h1 { 
-      color: #2874f0; 
-      text-align: center; 
-      margin-bottom: 30px; 
-    }
+    h1 { color: #2874f0; text-align: center; margin-bottom: 20px; font-size: 20px; }
     
-    /* Interactive Tab Menu Styling */
-    .tab-menu { 
-      display: flex; 
-      gap: 10px; 
-      margin-bottom: 20px; 
-      flex-wrap: wrap; 
-      justify-content: center; 
-    }
+    .tab-menu { display: flex; gap: 8px; margin-bottom: 15px; flex-wrap: wrap; justify-content: center; }
     .tab-btn {
-      background-color: #fff; 
-      border: 1px solid #e0e0e0; 
-      color: #333; 
-      padding: 10px 20px; 
-      border-radius: 4px; 
-      cursor: pointer; 
-      font-weight: bold; 
-      font-size: 14px; 
-      transition: 0.3s;
+      background-color: #fff; border: 1px solid #e0e0e0; color: #333; 
+      padding: 6px 12px; border-radius: 4px; cursor: pointer; 
+      font-weight: bold; font-size: 12px; transition: 0.3s;
     }
     .tab-btn:hover { background-color: #f1f8ff; }
-    .tab-btn.active { 
-      background-color: #2874f0; 
-      color: white; 
-      border-color: #2874f0; 
-    }
+    .tab-btn.active { background-color: #2874f0; color: white; border-color: #2874f0; }
 
-    /* Table Container Styling */
-    .tab-content { 
-      display: none; 
-      animation: fadeEffect 0.4s; 
-    }
+    .tab-content { display: none; animation: fadeEffect 0.4s; }
     .tab-content.active { display: block; }
     @keyframes fadeEffect { from {opacity: 0;} to {opacity: 1;} }
 
+    /* Required to make freezing work */
     .table-wrapper { 
-      overflow-x: auto; 
+      max-height: 80vh; 
+      overflow: auto; 
       background: white; 
       border-radius: 8px; 
       box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
-      padding: 1px; 
     }
+    
     table { width: 100%; border-collapse: collapse; white-space: nowrap; }
-    th, td { border: 1px solid #e0e0e0; padding: 12px 15px; text-align: left; font-size: 14px; }
     
-    /* Alternating row colors for readability */
-    tr:nth-child(even) td { background-color: #fafafa; }
-    tr:hover td { background-color: #f1f8ff; }
+    /* Font size reduced to half (7px), padding tightened */
+    th, td { 
+      border: 1px solid #e0e0e0; 
+      padding: 4px 6px; 
+      text-align: left; 
+      font-size: 7px; 
+    }
     
-    /* Highlights the timestamp row from your data structure */
-    tr:nth-child(1) td { background-color: #ffeb3b; font-weight: bold; text-align: center; color: black; }
-    tr:nth-child(2) th, tr:nth-child(2) td { background-color: #2874f0; color: white; font-weight: bold; }
+    /* CSS logic for Frozen Rows */
+    thead th { 
+      position: sticky; 
+      top: 0; 
+      z-index: 2; 
+      box-shadow: 0 1px 0px #ccc;
+    }
 
-    #status-msg { text-align: center; color: #878787; margin-bottom: 20px; font-weight: bold;}
+    #status-msg { text-align: center; color: #878787; margin-bottom: 20px; font-weight: bold; font-size: 12px;}
   </style>
 </head>
 <body>
   <h1>Operations Dashboard</h1>
-  <div id="status-msg">Loading latest data...</div>
+  <div id="status-msg">Loading styled data...</div>
   
-  <!-- The buttons and tables will be injected here automatically -->
   <div class="tab-menu" id="tab-menu"></div>
   <div id="tables-container"></div>
 
@@ -87,28 +70,24 @@
         
         var tabMenu = document.getElementById("tab-menu");
         var tablesContainer = document.getElementById("tables-container");
-        
-        // Automatically grabs every tab name sent from Google Sheets
         var sheetNames = Object.keys(data);
-        if (sheetNames.length === 0) throw new Error("No data found in JSON.");
+        if (sheetNames.length === 0) throw new Error("No data found.");
 
         document.getElementById("status-msg").style.display = "none";
 
-        // Loops through each tab to create a button and a table
         for (var idx = 0; idx < sheetNames.length; idx++) {
           var sheetName = sheetNames[idx];
           
-          // 1. Create Navigation Button
+          // Navigation Buttons
           var btn = document.createElement("button");
           btn.className = "tab-btn" + (idx === 0 ? " active" : "");
           btn.textContent = sheetName;
-          // Use closure to capture the correct sheetName for the click event
           (function(name) {
             btn.onclick = function() { switchTab(name); };
           })(sheetName);
           tabMenu.appendChild(btn);
 
-          // 2. Create Table Container
+          // Table Containers
           var contentDiv = document.createElement("div");
           contentDiv.id = "tab-" + sheetName.replace(/\s+/g, '-');
           contentDiv.className = "tab-content" + (idx === 0 ? " active" : "");
@@ -118,23 +97,49 @@
           
           var table = document.createElement("table");
           var tableHTML = "";
-          var sheetData = data[sheetName];
           
-          // 3. Build Table Rows
-          for (var i = 0; i < sheetData.length; i++) {
+          // Extract the new data payload
+          var sheetObj = data[sheetName];
+          var values = sheetObj.values;
+          var backgrounds = sheetObj.backgrounds;
+          var fontColors = sheetObj.fontColors;
+          var frozenRows = sheetObj.frozenRows || 0;
+          var frozenCols = sheetObj.frozenColumns || 0;
+          
+          // Build Table Structure
+          if (frozenRows > 0) tableHTML += "<thead>";
+          else tableHTML += "<tbody>";
+
+          for (var i = 0; i < values.length; i++) {
+            // Close the frozen header and open the scrolling body
+            if (i === frozenRows && frozenRows > 0) {
+              tableHTML += "</thead><tbody>";
+            }
+            
             tableHTML += "<tr>";
-            var row = sheetData[i];
-            for (var j = 0; j < row.length; j++) {
-              // Apply bold headers to the second row (based on your screenshot structure)
-              if (i === 1) { 
-                tableHTML += "<th>" + (row[j] !== null ? row[j] : "") + "</th>";
-              } else {
-                tableHTML += "<td>" + (row[j] !== null ? row[j] : "") + "</td>";
+            var rowValues = values[i];
+            
+            for (var j = 0; j < rowValues.length; j++) {
+              // Get colors from the Apps Script payload
+              var bg = backgrounds[i][j] === '#ffffff' ? '' : background-color: ${backgrounds[i][j]};;
+              var color = fontColors[i][j] === '#000000' ? '' : color: ${fontColors[i][j]};;
+              
+              var style = bg + " " + color;
+              var cellTag = (i < frozenRows) ? "th" : "td";
+              
+              // Apply frozen column styling inline
+              if (j < frozenCols) {
+                var zIndex = (i < frozenRows) ? "3" : "1";
+                style +=  position: sticky; left: 0; z-index: ${zIndex}; box-shadow: 1px 0 0px #ccc;;
               }
+              
+              var val = rowValues[j] !== null ? rowValues[j] : "";
+              tableHTML += <${cellTag} style="${style}">${val}</${cellTag}>;
             }
             tableHTML += "</tr>";
           }
           
+          tableHTML += "</tbody>";
           table.innerHTML = tableHTML;
           tableWrapper.appendChild(table);
           contentDiv.appendChild(tableWrapper);
@@ -146,26 +151,17 @@
       }
     }
 
-    // Function to handle clicking between tabs
     function switchTab(activeSheetName) {
       var safeName = activeSheetName.replace(/\s+/g, '-');
-      
       var buttons = document.getElementsByClassName("tab-btn");
       for (var i = 0; i < buttons.length; i++) {
-        if (buttons[i].textContent === activeSheetName) {
-          buttons[i].classList.add("active");
-        } else {
-          buttons[i].classList.remove("active");
-        }
+        if (buttons[i].textContent === activeSheetName) buttons[i].classList.add("active");
+        else buttons[i].classList.remove("active");
       }
-      
       var contents = document.getElementsByClassName("tab-content");
       for (var j = 0; j < contents.length; j++) {
-        if (contents[j].id === "tab-" + safeName) {
-          contents[j].classList.add("active");
-        } else {
-          contents[j].classList.remove("active");
-        }
+        if (contents[j].id === "tab-" + safeName) contents[j].classList.add("active");
+        else contents[j].classList.remove("active");
       }
     }
     
