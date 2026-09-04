@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Dashboard</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 20px; background-color: #f8f9fa; }
+    h1 { color: #2874f0; } /* Flipkart Blue */
+    .data-box { background: white; padding: 15px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin-bottom: 20px; }
+    pre { white-space: pre-wrap; word-wrap: break-word; }
+  </style>
+</head>
+<body>
+  <h1>Operations Dashboard</h1>
+  <p>Live sync from Google Sheets successfully connected.</p>
+  
+  <div class="data-box">
+    <h3>Raw Data Feed:</h3>
+    <pre id="data-display">Fetching data from repository...</pre>
+  </div>
+
+  <script>
+    async function loadDashboard() {
+      try {
+        // Fetches the JSON file sitting next to this HTML file in the repository
+        const response = await fetch('./data.json');
+        const data = await response.json();
+        
+        // Prints the raw data on your webpage
+        document.getElementById('data-display').textContent = JSON.stringify(data, null, 2);
+        
+      } catch (error) {
+        document.getElementById('data-display').textContent = "Error loading data. Make sure data.json exists.";
+      }
+    }
+    
+    loadDashboard();
+  </script>
+</body>
+</html>
