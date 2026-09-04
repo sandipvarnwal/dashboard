@@ -3,91 +3,85 @@
 <head>
   <title>Operations Dashboard</title>
   <style>
-    body { 
-      font-family: Arial, sans-serif; 
-      padding: 20px; 
-      background-color: #f8f9fa; 
-    }
-    h1, h2 { 
-      color: #2874f0; /* Flipkart Blue */
-    }
+    body { font-family: Arial, sans-serif; padding: 20px; background-color: #f8f9fa; }
+    h1, h2 { color: #2874f0; }
+    .table-container { overflow-x: auto; background: white; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin-top: 20px;}
+    table { width: 100%; border-collapse: collapse; white-space: nowrap; }
+    th, td { border: 1px solid #e0e0e0; padding: 12px 15px; text-align: left; font-size: 14px; }
+    th { background-color: #2874f0; color: white; font-weight: bold; }
+    tr:nth-child(1) td { background-color: #ffeb3b; font-weight: bold; text-align: center;}
     
-    /* Table Styling */
-    .table-container {
-      overflow-x: auto;
-      background: white;
-      border-radius: 8px;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    }
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      white-space: nowrap;
-    }
-    th, td {
-      border: 1px solid #e0e0e0;
-      padding: 12px 15px;
-      text-align: left;
-      font-size: 14px;
-    }
-    th {
-      background-color: #2874f0;
-      color: white;
-      font-weight: bold;
-    }
-    /* Highlights the timestamp row */
-    tr:nth-child(1) td { 
-      background-color: #ffeb3b; 
-      font-weight: bold; 
-      text-align: center;
-    }
-    tr:nth-child(even) { background-color: #f9f9f9; }
-    tr:hover { background-color: #f1f8ff; }
+    /* Diagnostic Box */
+    #debug-box { background: #ffebee; border: 2px solid #f44336; padding: 15px; margin-top: 20px; border-radius: 5px; font-family: monospace;}
   </style>
 </head>
 <body>
   <h1>Operations Dashboard</h1>
-  
   <h2>Top Sellers Not Picked</h2>
+  
+  <!-- This box will tell us exactly what is broken -->
+  <div id="debug-box">
+    <strong>System Status: </strong> <span id="status-text">Starting...</span>
+  </div>
+
   <div class="table-container">
-    <table id="sellers-table">
-      <!-- JavaScript will inject the table rows here -->
-    </table>
+    <table id="sellers-table"></table>
   </div>
 
   <script>
     async function loadDashboard() {
+      const statusText = document.getElementById('status-text');
+      const debugBox = document.getElementById('debug-box');
+      
       try {
+        // Step 1: Check if file exists
+        statusText.textContent = "1. Looking for data.json file...";
         const response = await fetch('./data.json');
+        
+        if (!response.ok) {
+          statusText.textContent = "ERROR: Cannot find data.json on Netlify. It may not have synced from GitHub yet.";
+          return;
+        }
+
+        // Step 2: Read file
+        statusText.textContent = "2. File found! Reading data...";
         const data = await response.json();
         
-        // Targets the specific tab shown in your screenshot
+        // Step 3: Look for the specific tab name
+        statusText.textContent = "3. Checking for the correct Google Sheet tab name...";
         const sheetData = data["Top Sellers Not Picked"];
-        const table = document.getElementById('sellers-table');
         
+        if (!sheetData) {
+          statusText.textContent = ERROR: The tab "Top Sellers Not Picked" is missing. The tabs actually inside the file are: ${Object.keys(data).join(", ")};
+          return;
+        }
+
+        // Step 4: Draw the table
+        statusText.textContent = "4. Drawing table...";
+        const table = document.getElementById('sellers-table');
         let tableHTML = "";
         
-        // Loops through the Google Sheets rows
         sheetData.forEach((row, rowIndex) => {
           tableHTML += "<tr>";
-          
-          // Loops through the columns in each row
           row.forEach(cellText => {
-            // Your screenshot shows row index 1 has the actual column headers
             if (rowIndex === 1) {
               tableHTML += <th>${cellText}</th>;
             } else {
               tableHTML += <td>${cellText}</td>;
             }
           });
-          
           tableHTML += "</tr>";
         });
         
         table.innerHTML = tableHTML;
         
+        // Success State
+        statusText.textContent = "SUCCESS: Dashboard loaded perfectly!";
+        debugBox.style.background = "#e8f5e9";
+        debugBox.style.border = "2px solid #4caf50";
+        
       } catch (error) {
-        document.getElementById('sellers-table').innerHTML = "<tr><td>Error loading data. Check data.json connection.</td></tr>";
+        statusText.textContent = "CRITICAL CRASH: " + error.message;
       }
     }
     
