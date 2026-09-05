@@ -170,7 +170,7 @@
           "bold": true
         },
         {
-          "value": "Total Pick up",
+          "value": "Total \nPick up",
           "bg": "#1f4e78",
           "color": "#ffffff",
           "bold": true
@@ -182,61 +182,61 @@
           "bold": true
         },
         {
-          "value": "Planned Pick Up",
+          "value": "Planned \nPick Up",
           "bg": "#1f4e78",
           "color": "#ffffff",
           "bold": true
         },
         {
-          "value": "Seller on Holiday",
+          "value": "Seller on \nHoliday",
           "bg": "#1f4e78",
           "color": "#ffffff",
           "bold": true
         },
         {
-          "value": "Created but not Picked DBD view",
+          "value": "Created but not \nPicked DBD view",
           "bg": "#1f4e78",
           "color": "#ffffff",
           "bold": true
         },
         {
-          "value": "Out for Pick up",
+          "value": "Out for \nPick up",
           "bg": "#1f4e78",
           "color": "#ffffff",
           "bold": true
         },
         {
-          "value": "EKL Reattempt DBD view",
+          "value": "EKL Reattempt \nDBD view",
           "bg": "#1f4e78",
           "color": "#ffffff",
           "bold": true
         },
         {
-          "value": "seller_reattempt_DBD_view",
+          "value": "seller_reattempt_\nDBD_view",
           "bg": "#1f4e78",
           "color": "#ffffff",
           "bold": true
         },
         {
-          "value": "Picked not Dispatched",
+          "value": "Picked not \nDispatched",
           "bg": "#1f4e78",
           "color": "#ffffff",
           "bold": true
         },
         {
-          "value": "Dispatched but not received at MH",
+          "value": "Dispatched but \nnot received at MH",
           "bg": "#1f4e78",
           "color": "#ffffff",
           "bold": true
         },
         {
-          "value": "Received at MH",
+          "value": "Received \nat MH",
           "bg": "#1f4e78",
           "color": "#ffffff",
           "bold": true
         },
         {
-          "value": "Created but not Picked DBD view\n%",
+          "value": "Created but \nnot Picked DBD \nview %",
           "bg": "#1f4e78",
           "color": "#ffffff",
           "bold": true
@@ -245,7 +245,7 @@
       [
         {
           "value": "Ashvani Bhatt",
-          "bg": "#00ff00",
+          "bg": "#ffffff",
           "color": "#000000",
           "bold": true
         },
