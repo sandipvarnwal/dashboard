@@ -1,144 +1,105 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Operations Dashboard</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard</title>
   <style>
-    body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; padding: 10px; background-color: #f1f3f6; margin: 0; }
-    h1 { color: #2874f0; text-align: center; margin-bottom: 20px; font-size: 20px; }
-    .tab-menu { display: flex; gap: 8px; margin-bottom: 15px; flex-wrap: wrap; justify-content: center; }
-    .tab-btn { background-color: #fff; border: 1px solid #e0e0e0; color: #333; padding: 6px 12px; border-radius: 4px; cursor: pointer; font-weight: bold; font-size: 12px; transition: 0.3s; }
-    .tab-btn:hover { background-color: #f1f8ff; }
-    .tab-btn.active { background-color: #2874f0; color: white; border-color: #2874f0; }
-    .tab-content { display: none; animation: fadeEffect 0.4s; }
-    .tab-content.active { display: block; }
-    @keyframes fadeEffect { from {opacity: 0;} to {opacity: 1;} }
-    .table-wrapper { max-height: 80vh; overflow: auto; background: white; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
-    table { width: 100%; border-collapse: collapse; white-space: nowrap; }
-    th, td { border: 1px solid #e0e0e0; padding: 4px 6px; text-align: left; font-size: 7px; }
-    thead th { position: sticky; top: 0; z-index: 2; box-shadow: 0 1px 0px #ccc; }
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background-color: #f8f9fa;
+    }
+    .table-container {
+      max-width: 100%;
+      max-height: 80vh;
+      overflow: auto;
+      border: 1px solid #ccc;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      background: white;
+    }
+    table {
+      border-collapse: separate;
+      border-spacing: 0;
+      width: 100%;
+    }
+    td, th {
+      border-right: 1px solid #e0e0e0;
+      border-bottom: 1px solid #e0e0e0;
+      padding: 8px 12px;
+      white-space: nowrap;
+      font-size: 13px;
+    }
     
-    #status-box { background: #fff3cd; border: 1px solid #ffeeba; color: #856404; padding: 15px; border-radius: 5px; margin-bottom: 20px; font-family: monospace; font-size: 14px;}
+    /* Sticky Freeze Panes */
+    .freeze-row {
+      position: sticky;
+      z-index: 2;
+    }
+    .freeze-col {
+      position: sticky;
+      z-index: 2;
+    }
+    .freeze-row.freeze-col {
+      z-index: 3; /* Top-left intersection cell stays on top */
+    }
   </style>
 </head>
 <body>
-  <h1>Operations Dashboard</h1>
-  
-  <div id="status-box">System Status: Starting...</div>
-  
-  <div class="tab-menu" id="tab-menu"></div>
-  <div id="tables-container"></div>
+
+  <h2>Client Dashboard</h2>
+  <div class="table-container">
+    <table id="sheet-table"></table>
+  </div>
 
   <script>
     async function loadDashboard() {
-      var statusBox = document.getElementById("status-box");
-      
       try {
-        statusBox.textContent = "1. Fetching data.json...";
-        var response = await fetch("./data.json");
+        const response = await fetch('./data.json');
+        const data = await response.json();
         
-        if (!response.ok) throw new Error("Cannot find data.json file on the server.");
-        
-        statusBox.textContent = "2. Reading data...";
-        var data = await response.json();
-        var sheetNames = Object.keys(data);
-        if (sheetNames.length === 0) throw new Error("The JSON file is empty.");
+        const table = document.getElementById('sheet-table');
+        const frozenRows = data.meta.frozenRows || 0;
+        const frozenCols = data.meta.frozenCols || 0;
 
-        // DIAGNOSTIC CHECK: Is this the old raw array data, or the new color-coded data?
-        var firstSheet = data[sheetNames[0]];
-        if (Array.isArray(firstSheet)) {
-          throw new Error("STILL LOADING OLD DATA FORMAT! The browser is using a cached file. Wait 30 seconds and press Ctrl + F5 to hard refresh.");
-        }
-        
-        if (!firstSheet.values || !firstSheet.backgrounds) {
-          throw new Error("DATA MISMATCH: The file does not contain the color mapping data.");
-        }
+        // Calculate sticky offsets
+        let rowHeights = 35; // Default row height estimation
+        let colWidths = 120; // Default column width estimation
 
-        statusBox.textContent = "3. Formatting tables with colors...";
-        var tabMenu = document.getElementById("tab-menu");
-        var tablesContainer = document.getElementById("tables-container");
+        data.rows.forEach((row, rIndex) => {
+          const tr = document.createElement('tr');
 
-        for (var idx = 0; idx < sheetNames.length; idx++) {
-          var sheetName = sheetNames[idx];
-          
-          var btn = document.createElement("button");
-          btn.className = "tab-btn" + (idx === 0 ? " active" : "");
-          btn.textContent = sheetName;
-          (function(name) { btn.onclick = function() { switchTab(name); }; })(sheetName);
-          tabMenu.appendChild(btn);
-
-          var contentDiv = document.createElement("div");
-          contentDiv.id = "tab-" + sheetName.replace(/\s+/g, '-');
-          contentDiv.className = "tab-content" + (idx === 0 ? " active" : "");
-          
-          var tableWrapper = document.createElement("div");
-          tableWrapper.className = "table-wrapper";
-          
-          var table = document.createElement("table");
-          var tableHTML = "";
-          
-          var sheetObj = data[sheetName];
-          var values = sheetObj.values;
-          var backgrounds = sheetObj.backgrounds;
-          var fontColors = sheetObj.fontColors;
-          var frozenRows = sheetObj.frozenRows || 0;
-          var frozenCols = sheetObj.frozenColumns || 0;
-          
-          if (frozenRows > 0) tableHTML += "<thead>";
-          else tableHTML += "<tbody>";
-
-          for (var i = 0; i < values.length; i++) {
-            if (i === frozenRows && frozenRows > 0) tableHTML += "</thead><tbody>";
-            tableHTML += "<tr>";
+          row.forEach((cell, cIndex) => {
+            const td = document.createElement('td');
+            td.textContent = cell.value;
             
-            for (var j = 0; j < values[i].length; j++) {
-              var bg = backgrounds[i][j] === '#ffffff' ? '' : background-color: ${backgrounds[i][j]};;
-              var color = fontColors[i][j] === '#000000' ? '' : color: ${fontColors[i][j]};;
-              var style = bg + " " + color;
-              var cellTag = (i < frozenRows) ? "th" : "td";
-              
-              if (j < frozenCols) {
-                var zIndex = (i < frozenRows) ? "3" : "1";
-                style +=  position: sticky; left: 0; z-index: ${zIndex}; box-shadow: 1px 0 0px #ccc;;
-              }
-              
-              var val = values[i][j] !== null ? values[i][j] : "";
-              tableHTML += <${cellTag} style="${style}">${val}</${cellTag}>;
+            // Apply Colors and Text Formatting from Google Sheet
+            if (cell.bg) td.style.backgroundColor = cell.bg;
+            if (cell.color) td.style.color = cell.color;
+            if (cell.bold) td.style.fontWeight = 'bold';
+
+            // Apply Frozen Row Logic
+            if (rIndex < frozenRows) {
+              td.classList.add('freeze-row');
+              td.style.top = `${rIndex * 35}px`;
             }
-            tableHTML += "</tr>";
-          }
-          
-          tableHTML += "</tbody>";
-          table.innerHTML = tableHTML;
-          tableWrapper.appendChild(table);
-          contentDiv.appendChild(tableWrapper);
-          tablesContainer.appendChild(contentDiv);
-        }
-        
-        // Hide the status box if everything works perfectly
-        statusBox.style.display = "none";
 
-      } catch (error) {
-        statusBox.style.background = "#ffebee";
-        statusBox.style.border = "1px solid #f44336";
-        statusBox.style.color = "#d32f2f";
-        statusBox.textContent = error.message;
+            // Apply Frozen Column Logic
+            if (cIndex < frozenCols) {
+              td.classList.add('freeze-col');
+              td.style.left = `${cIndex * 120}px`;
+            }
+
+            tr.appendChild(td);
+          });
+
+          table.appendChild(tr);
+        });
+      } catch (err) {
+        console.error('Error loading dashboard data:', err);
       }
     }
 
-    function switchTab(activeSheetName) {
-      var safeName = activeSheetName.replace(/\s+/g, '-');
-      var buttons = document.getElementsByClassName("tab-btn");
-      for (var i = 0; i < buttons.length; i++) {
-        if (buttons[i].textContent === activeSheetName) buttons[i].classList.add("active");
-        else buttons[i].classList.remove("active");
-      }
-      var contents = document.getElementsByClassName("tab-content");
-      for (var j = 0; j < contents.length; j++) {
-        if (contents[j].id === "tab-" + safeName) contents[j].classList.add("active");
-        else contents[j].classList.remove("active");
-      }
-    }
-    
     loadDashboard();
   </script>
 </body>
