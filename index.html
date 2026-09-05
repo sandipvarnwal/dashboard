@@ -3,57 +3,108 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dashboard</title>
+  <title>Operations Dashboard</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <style>
-    body { font-family: Arial, sans-serif; margin: 20px; background-color: #f8f9fa; }
-    .tabs { margin-bottom: 15px; display: flex; gap: 8px; flex-wrap: wrap; }
+    * { box-sizing: border-box; }
+    body { 
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; 
+      margin: 0; 
+      padding: 16px; 
+      background-color: #f1f3f5; 
+      color: #212529;
+    }
+    
+    .header-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 12px;
+      background: #ffffff;
+      padding: 12px 20px;
+      border-radius: 8px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+    }
+    .header-title { font-size: 18px; font-weight: 700; color: #1c7ed6; margin: 0; }
+    
+    /* Sleek Navigation Tabs */
+    .tabs { display: flex; gap: 6px; }
     .tab-btn { 
-      padding: 10px 18px; 
+      padding: 6px 14px; 
       cursor: pointer; 
-      border: 1px solid #ccc; 
-      background: #e9ecef; 
-      border-radius: 6px 6px 0 0;
-      font-weight: 500;
-      transition: all 0.2s ease;
+      border: 1px solid #dee2e6; 
+      background: #f8f9fa; 
+      border-radius: 6px;
+      font-size: 12px;
+      font-weight: 600;
+      color: #495057;
+      transition: all 0.15s ease;
     }
+    .tab-btn:hover { background: #e9ecef; }
     .tab-btn.active { 
-      background: #ffffff; 
-      border-bottom: 2px solid #007bff; 
-      color: #007bff;
-      font-weight: bold; 
+      background: #1c7ed6; 
+      border-color: #1c7ed6; 
+      color: #ffffff; 
+      box-shadow: 0 2px 4px rgba(28,126,214,0.25);
     }
+
+    /* Compact Dashboard Container */
     .table-container { 
-      max-width: 100%; 
-      max-height: 80vh; 
+      width: 100%; 
+      max-height: 84vh; 
       overflow: auto; 
-      border: 1px solid #ccc; 
-      box-shadow: 0 4px 6px rgba(0,0,0,0.1); 
-      background: white; 
+      border: 1px solid #ced4da; 
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05); 
+      background: #ffffff; 
       display: none; 
     }
     .table-container.active { display: block; }
-    table { border-collapse: separate; border-spacing: 0; width: 100%; }
-    td, th { 
-      border-right: 1px solid #e0e0e0; 
-      border-bottom: 1px solid #e0e0e0; 
-      padding: 8px 12px; 
-      white-space: nowrap; 
-      font-size: 13px; 
+    
+    /* Optimized Compact Table Structure */
+    table { 
+      border-collapse: separate; 
+      border-spacing: 0; 
+      width: 100%; 
+      table-layout: fixed; /* Enforces strict column fitting */
     }
-    /* Dynamic Sticky Freeze Panes */
+    td, th { 
+      border-right: 1px solid #e9ecef; 
+      border-bottom: 1px solid #e9ecef; 
+      padding: 5px 8px; /* Tighter padding */
+      font-size: 11px;  /* Modern, readable font size */
+      line-height: 1.2;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    /* Wrap Headers cleanly */
+    tr:first-child td, tr:nth-child(2) td {
+      white-space: normal !important;
+      word-wrap: break-word;
+      vertical-align: bottom;
+    }
+
+    /* Sticky Freeze Panes */
     .freeze-row { position: sticky; z-index: 2; }
     .freeze-col { position: sticky; z-index: 2; }
     .freeze-row.freeze-col { z-index: 3; }
+
+    /* Number formatting helper */
+    .num-cell { text-align: right; font-variant-numeric: tabular-nums; }
   </style>
 </head>
 <body>
 
-  <h2>Client Dashboard</h2>
-  <div class="tabs" id="tab-container"></div>
+  <div class="header-bar">
+    <h1 class="header-title">Operations Dashboard</h1>
+    <div class="tabs" id="tab-container"></div>
+  </div>
+
   <div id="tables-wrapper"></div>
 
   <script>
-    // Helper function to convert sheet names with spaces into valid element IDs
     function cleanId(str) {
       return str.replace(/[^a-zA-Z0-9]/g, '_');
     }
@@ -70,81 +121,91 @@
     }
 
     async function loadDashboard() {
-  try {
-    // Append time to URL to force browser to ignore local cache
-    const response = await fetch('./data.json?t=' + new Date().getTime());
-    const jsonData = await response.json();
-    
-    const tabContainer = document.getElementById('tab-container');
-    const tablesWrapper = document.getElementById('tables-wrapper');
-    tabContainer.innerHTML = '';
-    tablesWrapper.innerHTML = '';
+      try {
+        const response = await fetch('./data.json?t=' + new Date().getTime());
+        const jsonData = await response.json();
+        
+        const tabContainer = document.getElementById('tab-container');
+        const tablesWrapper = document.getElementById('tables-wrapper');
+        tabContainer.innerHTML = '';
+        tablesWrapper.innerHTML = '';
 
-    // Standardize single-sheet structure to multi-sheet format automatically
-    let allData = {};
-    if (jsonData.meta && jsonData.rows) {
-      allData["Dashboard"] = jsonData; 
-    } else {
-      allData = jsonData;
-    }
+        let allData = (jsonData.meta && jsonData.rows) ? { "Dashboard": jsonData } : jsonData;
+        let isFirst = true;
 
-    let isFirst = true;
+        for (const [sheetName, data] of Object.entries(allData)) {
+          const safeId = cleanId(sheetName);
 
-    for (const [sheetName, data] of Object.entries(allData)) {
-      const safeId = cleanId(sheetName);
+          // 1. Create Tab Button
+          const btn = document.createElement('button');
+          btn.className = 'tab-btn' + (isFirst ? ' active' : '');
+          btn.id = 'btn-' + safeId;
+          btn.textContent = sheetName;
+          btn.onclick = () => switchTab(safeId);
+          tabContainer.appendChild(btn);
 
-      // 1. Create Tab Button
-      const btn = document.createElement('button');
-      btn.className = 'tab-btn' + (isFirst ? ' active' : '');
-      btn.id = 'btn-' + safeId;
-      btn.textContent = sheetName;
-      btn.onclick = () => switchTab(safeId);
-      tabContainer.appendChild(btn);
+          // 2. Create Table Container
+          const container = document.createElement('div');
+          container.className = 'table-container' + (isFirst ? ' active' : '');
+          container.id = 'container-' + safeId;
+          
+          const table = document.createElement('table');
+          const frozenRows = (data && data.meta && data.meta.frozenRows) ? data.meta.frozenRows : 0;
+          const frozenCols = (data && data.meta && data.meta.frozenCols) ? data.meta.frozenCols : 0;
 
-      // 2. Create Table Container
-      const container = document.createElement('div');
-      container.className = 'table-container' + (isFirst ? ' active' : '');
-      container.id = 'container-' + safeId;
-      
-      const table = document.createElement('table');
-      const frozenRows = (data && data.meta && data.meta.frozenRows) ? data.meta.frozenRows : 0;
-      const frozenCols = (data && data.meta && data.meta.frozenCols) ? data.meta.frozenCols : 0;
-
-      if (data && data.rows) {
-        data.rows.forEach((row, rIndex) => {
-          const tr = document.createElement('tr');
-          row.forEach((cell, cIndex) => {
-            const td = document.createElement('td');
-            td.textContent = cell.value;
-
-            // Apply Spreadsheet Styles
-            if (cell.bg) td.style.backgroundColor = cell.bg;
-            if (cell.color) td.style.color = cell.color;
-            if (cell.bold) td.style.fontWeight = 'bold';
-
-            // Apply Freeze Panes
-            if (rIndex < frozenRows) { 
-              td.classList.add('freeze-row'); 
-              td.style.top = `${rIndex * 33}px`; 
+          if (data && data.rows && data.rows.length > 0) {
+            const totalCols = data.rows[0].length;
+            
+            // Build colgroup to auto-proportion widths across screen width
+            const colgroup = document.createElement('colgroup');
+            for (let c = 0; c < totalCols; c++) {
+              const col = document.createElement('col');
+              // Give text columns slightly more room, metrics tight fixed ratio
+              col.style.width = (c < 4) ? `${100 / totalCols * 1.2}%` : `${100 / totalCols * 0.9}%`;
+              colgroup.appendChild(col);
             }
-            if (cIndex < frozenCols) { 
-              td.classList.add('freeze-col'); 
-              td.style.left = `${cIndex * 110}px`; 
-            }
-            tr.appendChild(td);
-          });
-          table.appendChild(tr);
-        });
+            table.appendChild(colgroup);
+
+            data.rows.forEach((row, rIndex) => {
+              const tr = document.createElement('tr');
+              row.forEach((cell, cIndex) => {
+                const td = document.createElement('td');
+                td.textContent = cell.value;
+                td.title = cell.value; // Hover tooltip for truncated content
+
+                // Auto Right-Align Numbers
+                if (typeof cell.value === 'number' || (!isNaN(cell.value) && cell.value !== '')) {
+                  td.classList.add('num-cell');
+                }
+
+                // Apply Spreadsheet Styles
+                if (cell.bg && cell.bg !== '#ffffff') td.style.backgroundColor = cell.bg;
+                if (cell.color && cell.color !== '#000000') td.style.color = cell.color;
+                if (cell.bold) td.style.fontWeight = '700';
+
+                // Apply Freeze Panes
+                if (rIndex < frozenRows) { 
+                  td.classList.add('freeze-row'); 
+                  td.style.top = `${rIndex * 26}px`; 
+                }
+                if (cIndex < frozenCols) { 
+                  td.classList.add('freeze-col'); 
+                  td.style.left = `${cIndex * 85}px`; 
+                }
+                tr.appendChild(td);
+              });
+              table.appendChild(tr);
+            });
+          }
+          
+          container.appendChild(table);
+          tablesWrapper.appendChild(container);
+          isFirst = false;
+        }
+      } catch (err) {
+        console.error('Error loading dashboard data:', err);
       }
-      
-      container.appendChild(table);
-      tablesWrapper.appendChild(container);
-      isFirst = false;
     }
-  } catch (err) {
-    console.error('Error loading dashboard data:', err);
-  }
-}
 
     loadDashboard();
   </script>
