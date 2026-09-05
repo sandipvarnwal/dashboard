@@ -6,7 +6,7 @@
       "frozenCols": 1,
       "columnWidths": [
         15,
-        5,
+        1,
         5,
         7,
         7,
@@ -245,7 +245,7 @@
       [
         {
           "value": "Ashvani Bhatt",
-          "bg": "#ff00ff",
+          "bg": "#ffffff",
           "color": "#000000",
           "bold": true
         },
