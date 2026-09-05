@@ -16,6 +16,7 @@
     .header-bar { margin-bottom: 12px; }
     .header-title { font-size: 18px; font-weight: 700; color: #1a73e8; margin: 0 0 10px 0; }
     
+    /* Scrollable Tabs */
     .tabs { display: flex; gap: 8px; overflow-x: auto; padding-bottom: 4px; }
     .tab-btn { 
       padding: 8px 14px; 
@@ -33,6 +34,7 @@
       color: #ffffff; 
     }
 
+    /* Enables Native Touch Horizontal & Vertical Scrolling */
     .table-container { 
       width: 100%; 
       max-height: 80vh; 
@@ -45,24 +47,27 @@
     }
     .table-container.active { display: block; }
 
+    /* Prevents auto-compression on mobile screen */
     table { 
       border-collapse: separate; 
       border-spacing: 0; 
-      table-layout: fixed;
+      min-width: max-content; /* Forces natural table width */
+      width: max-content;
     }
+    
     td, th { 
       border-right: 1px solid #666666 !important; 
       border-bottom: 1px solid #666666 !important; 
-      padding: 6px 8px; 
-      font-size: 11px; 
-      line-height: 1.25;
+      padding: 8px 10px; 
+      font-size: 12px; 
+      line-height: 1.3;
       white-space: normal !important; 
-      word-break: break-word; 
-      overflow-wrap: anywhere;
+      word-break: normal; /* Prevents 1-letter vertical word breaks */
       vertical-align: middle;
       background-color: #ffffff; 
     }
 
+    /* Fixed Sticky Freeze Panes */
     .freeze-row { position: sticky; z-index: 10; }
     .freeze-col { position: sticky; z-index: 10; }
     .freeze-row.freeze-col { z-index: 20; }
@@ -129,32 +134,36 @@
             let maxCols = 0;
             data.rows.forEach(r => { if(r.length > maxCols) maxCols = r.length; });
 
+            // Set minimum width per column so mobile touch-scroll is triggered smoothly
+            let leftOffsets = [];
+            let currentOffset = 0;
+
             for (let c = 0; c < maxCols; c++) {
               const col = document.createElement('col');
               const charLimit = colWidths[c] || 12;
-              const pixelWidth = (charLimit * 7) + 16;
+              
+              // Guarantee minimum width of 100px per column on mobile
+              const pixelWidth = Math.max((charLimit * 7) + 24, 100); 
               col.style.width = `${pixelWidth}px`;
               colGroup.appendChild(col);
+
+              if (c < frozenCols) {
+                leftOffsets[c] = currentOffset;
+                currentOffset += pixelWidth;
+              }
             }
             table.appendChild(colGroup);
-
-            let leftOffsets = [];
-            let currentOffset = 0;
-            for (let c = 0; c < frozenCols; c++) {
-              leftOffsets[c] = currentOffset;
-              const charLimit = colWidths[c] || 12;
-              currentOffset += (charLimit * 7) + 16;
-            }
 
             data.rows.forEach((row, rIndex) => {
               const tr = document.createElement('tr');
               
               row.forEach((cell, cIndex) => {
-                // Skip covered cells in merged ranges
                 if (cell.isCovered) return;
 
                 const td = document.createElement('td');
                 let cellVal = cell.value !== undefined ? String(cell.value) : '';
+                
+                // Keep words readable and prevent squishing
                 td.textContent = cellVal.replace(/_/g, '_ ');
 
                 if (cell.rowSpan && cell.rowSpan > 1) td.rowSpan = cell.rowSpan;
@@ -166,7 +175,7 @@
 
                 if (rIndex < frozenRows) { 
                   td.classList.add('freeze-row'); 
-                  td.style.top = `${rIndex * 32}px`; 
+                  td.style.top = `${rIndex * 34}px`; 
                 }
                 if (cIndex < frozenCols) { 
                   td.classList.add('freeze-col'); 
