@@ -3,6 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
   <title>D0 DASHBOARD</title>
   <style>
     * { box-sizing: border-box; }
@@ -33,7 +36,6 @@
       color: #ffffff; 
     }
 
-    /* Mobile-Safe Container */
     .table-container { 
       width: 100%; 
       max-height: 80vh; 
@@ -56,13 +58,13 @@
     td, th { 
       border-right: 1px solid #666666 !important; 
       border-bottom: 1px solid #666666 !important; 
-      padding: 6px 8px; 
+      padding: 6px 8px !important; 
       font-size: 11px; 
-      line-height: 1.25;
+      line-height: 1.35;
       white-space: normal !important; 
       word-wrap: break-word !important; 
-      overflow: hidden !important;
-      text-overflow: ellipsis;
+      overflow-wrap: break-word !important; 
+      overflow: visible !important; 
       vertical-align: middle;
     }
 
@@ -127,6 +129,7 @@
           const frozenRows = (data && data.meta && data.meta.frozenRows) ? data.meta.frozenRows : 0;
           const frozenCols = (data && data.meta && data.meta.frozenCols) ? data.meta.frozenCols : 0;
           const colWidths = (data && data.meta && data.meta.columnWidths) ? data.meta.columnWidths : [];
+          const customRowHeights = (data && data.meta && data.meta.rowHeights) ? data.meta.rowHeights : {};
 
           if (data && data.rows && data.rows.length > 0) {
             let maxCols = 0;
@@ -137,10 +140,8 @@
             let totalTableWidth = 0;
 
             for (let c = 0; c < maxCols; c++) {
-              // Custom Char Count Calculation
               const charCount = colWidths[c] !== undefined ? colWidths[c] : 12;
-              const px = Math.round(charCount * 9) + 20; 
-
+              const px = Math.round(charCount * 10) + 30; 
               pixelWidths[c] = px;
 
               if (c < frozenCols) {
@@ -150,22 +151,30 @@
             }
 
             table.style.width = `${totalTableWidth}px`;
-            table.style.minWidth = `${totalTableWidth}px`;
 
-            // STRICT COLGROUP DEFINITION
             const colGroup = document.createElement('colgroup');
             for (let c = 0; c < maxCols; c++) {
               const col = document.createElement('col');
               col.style.width = `${pixelWidths[c]}px`;
-              col.style.minWidth = `${pixelWidths[c]}px`;
-              col.style.maxWidth = `${pixelWidths[c]}px`;
               colGroup.appendChild(col);
             }
             table.appendChild(colGroup);
 
+            // Track dynamic row height cumulative offsets for sticky headers
+            let topRowOffsets = [];
+            let currentTopOffset = 0;
+
             data.rows.forEach((row, rIndex) => {
               const tr = document.createElement('tr');
               
+              // Determine current row height (1-based sheet row number match)
+              const sheetRowNumber = rIndex + 1;
+              const rowHeight = customRowHeights[sheetRowNumber] ? customRowHeights[sheetRowNumber] : 32;
+              
+              tr.style.height = `${rowHeight}px`;
+              topRowOffsets[rIndex] = currentTopOffset;
+              currentTopOffset += rowHeight;
+
               row.forEach((cell, cIndex) => {
                 if (cell.isCovered) return;
 
@@ -176,11 +185,9 @@
                 if (cell.rowSpan && cell.rowSpan > 1) td.rowSpan = cell.rowSpan;
                 if (cell.colSpan && cell.colSpan > 1) td.colSpan = cell.colSpan;
 
-                // Apply widths only to non-merged cells so colgroup handles the rest
                 if (!cell.colSpan || cell.colSpan === 1) {
                   td.style.width = `${pixelWidths[cIndex]}px`;
                   td.style.minWidth = `${pixelWidths[cIndex]}px`;
-                  td.style.maxWidth = `${pixelWidths[cIndex]}px`;
                 }
 
                 td.style.backgroundColor = (cell.bg && cell.bg !== '') ? cell.bg : '#ffffff';
@@ -189,7 +196,7 @@
 
                 if (rIndex < frozenRows) { 
                   td.classList.add('freeze-row'); 
-                  td.style.top = `${rIndex * 32}px`; 
+                  td.style.top = `${topRowOffsets[rIndex]}px`; 
                 }
                 if (cIndex < frozenCols) { 
                   td.classList.add('freeze-col'); 
