@@ -61,7 +61,6 @@
       word-break: break-word;
       overflow-wrap: anywhere;
       vertical-align: middle;
-      /* Default background removed so JS inline background-color always wins */
     }
 
     .freeze-row { position: sticky; z-index: 10; }
@@ -173,8 +172,14 @@
                   td.style.maxWidth = `${pixelWidths[cIndex]}px`;
                 }
 
-                // Always apply exported cell background color directly
-                td.style.backgroundColor = (cell.bg && cell.bg !== '') ? cell.bg : '#ffffff';
+                // Apply full row highlight for Total rows
+                if (cell.isTotalRow) {
+                  td.style.backgroundColor = '#b6d7a8';
+                  td.style.fontWeight = 'bold';
+                } else {
+                  td.style.backgroundColor = (cell.bg && cell.bg !== '') ? cell.bg : '#ffffff';
+                }
+
                 if (cell.color && cell.color !== '') td.style.color = cell.color;
                 if (cell.bold) td.style.fontWeight = 'bold';
 
