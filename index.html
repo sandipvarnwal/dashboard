@@ -172,7 +172,6 @@
                   td.style.maxWidth = `${pixelWidths[cIndex]}px`;
                 }
 
-                // Render exact Google Sheet colors
                 td.style.backgroundColor = (cell.bg && cell.bg !== '') ? cell.bg : '#ffffff';
                 if (cell.color && cell.color !== '') td.style.color = cell.color;
                 if (cell.bold) td.style.fontWeight = 'bold';
