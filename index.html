@@ -3,10 +3,6 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- Cache Prevention Meta Tags -->
-  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
-  <meta http-equiv="Pragma" content="no-cache">
-  <meta http-equiv="Expires" content="0">
   <title>D0 DASHBOARD</title>
   <style>
     * { box-sizing: border-box; }
@@ -37,7 +33,7 @@
       color: #ffffff; 
     }
 
-    /* Mobile & Desktop Scroll Container */
+    /* Mobile-Safe Container */
     .table-container { 
       width: 100%; 
       max-height: 80vh; 
@@ -55,24 +51,18 @@
       border-collapse: separate; 
       border-spacing: 0; 
       table-layout: fixed !important;
-      height: auto !important;
     }
     
     td, th { 
       border-right: 1px solid #666666 !important; 
       border-bottom: 1px solid #666666 !important; 
-      padding: 6px 8px !important; 
+      padding: 6px 8px; 
       font-size: 11px; 
-      line-height: 1.35;
-      
-      /* FORCE TEXT WRAPPING WITHOUT CLIPPING */
+      line-height: 1.25;
       white-space: normal !important; 
       word-wrap: break-word !important; 
-      word-break: normal !important;
-      overflow-wrap: break-word !important; 
-      overflow: visible !important; 
-      height: auto !important;
-      max-height: none !important;
+      overflow: hidden !important;
+      text-overflow: ellipsis;
       vertical-align: middle;
     }
 
@@ -108,7 +98,6 @@
 
     async function loadDashboard() {
       try {
-        // Cache-busting URL parameter
         const response = await fetch('./data.json?t=' + new Date().getTime());
         const allData = await response.json();
         
@@ -148,10 +137,9 @@
             let totalTableWidth = 0;
 
             for (let c = 0; c < maxCols; c++) {
+              // Custom Char Count Calculation
               const charCount = colWidths[c] !== undefined ? colWidths[c] : 12;
-              
-              // Custom Char Width Calculation: 10px per character + 30px safety padding
-              const px = Math.round(charCount * 10) + 30; 
+              const px = Math.round(charCount * 9) + 20; 
 
               pixelWidths[c] = px;
 
@@ -162,11 +150,15 @@
             }
 
             table.style.width = `${totalTableWidth}px`;
+            table.style.minWidth = `${totalTableWidth}px`;
 
+            // STRICT COLGROUP DEFINITION
             const colGroup = document.createElement('colgroup');
             for (let c = 0; c < maxCols; c++) {
               const col = document.createElement('col');
               col.style.width = `${pixelWidths[c]}px`;
+              col.style.minWidth = `${pixelWidths[c]}px`;
+              col.style.maxWidth = `${pixelWidths[c]}px`;
               colGroup.appendChild(col);
             }
             table.appendChild(colGroup);
@@ -184,9 +176,11 @@
                 if (cell.rowSpan && cell.rowSpan > 1) td.rowSpan = cell.rowSpan;
                 if (cell.colSpan && cell.colSpan > 1) td.colSpan = cell.colSpan;
 
+                // Apply widths only to non-merged cells so colgroup handles the rest
                 if (!cell.colSpan || cell.colSpan === 1) {
                   td.style.width = `${pixelWidths[cIndex]}px`;
                   td.style.minWidth = `${pixelWidths[cIndex]}px`;
+                  td.style.maxWidth = `${pixelWidths[cIndex]}px`;
                 }
 
                 td.style.backgroundColor = (cell.bg && cell.bg !== '') ? cell.bg : '#ffffff';
