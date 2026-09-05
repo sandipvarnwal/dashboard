@@ -172,14 +172,8 @@
                   td.style.maxWidth = `${pixelWidths[cIndex]}px`;
                 }
 
-                // Apply full row highlight for Total rows
-                if (cell.isTotalRow) {
-                  td.style.backgroundColor = '#b6d7a8';
-                  td.style.fontWeight = 'bold';
-                } else {
-                  td.style.backgroundColor = (cell.bg && cell.bg !== '') ? cell.bg : '#ffffff';
-                }
-
+                // Render exact Google Sheet colors
+                td.style.backgroundColor = (cell.bg && cell.bg !== '') ? cell.bg : '#ffffff';
                 if (cell.color && cell.color !== '') td.style.color = cell.color;
                 if (cell.bold) td.style.fontWeight = 'bold';
 
