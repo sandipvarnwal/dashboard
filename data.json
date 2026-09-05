@@ -159,67 +159,67 @@
       [
         {
           "value": "GM",
-          "bg": "#305496",
+          "bg": "#1f4e78",
           "color": "#ffffff",
           "bold": true
         },
         {
           "value": "Total RTD",
-          "bg": "#305496",
+          "bg": "#1f4e78",
           "color": "#ffffff",
           "bold": true
         },
         {
           "value": "Total Pick up",
-          "bg": "#305496",
+          "bg": "#1f4e78",
           "color": "#ffffff",
           "bold": true
         },
         {
           "value": "Planned DBD",
-          "bg": "#305496",
+          "bg": "#1f4e78",
           "color": "#ffffff",
           "bold": true
         },
         {
           "value": "Planned Pick Up",
-          "bg": "#305496",
+          "bg": "#1f4e78",
           "color": "#ffffff",
           "bold": true
         },
         {
           "value": "Seller on Holiday",
-          "bg": "#305496",
+          "bg": "#1f4e78",
           "color": "#ffffff",
           "bold": true
         },
         {
           "value": "Created but not Picked DBD view",
-          "bg": "#305496",
+          "bg": "#1f4e78",
           "color": "#ffffff",
           "bold": true
         },
         {
           "value": "Out for Pick up",
-          "bg": "#305496",
+          "bg": "#1f4e78",
           "color": "#ffffff",
           "bold": true
         },
         {
           "value": "EKL Reattempt DBD view",
-          "bg": "#305496",
+          "bg": "#1f4e78",
           "color": "#ffffff",
           "bold": true
         },
         {
           "value": "seller_reattempt_DBD_view",
-          "bg": "#305496",
+          "bg": "#1f4e78",
           "color": "#ffffff",
           "bold": true
         },
         {
           "value": "Picked not Dispatched",
-          "bg": "#305496",
+          "bg": "#1f4e78",
           "color": "#ffffff",
           "bold": true
         },
@@ -2554,67 +2554,67 @@
       [
         {
           "value": "GM",
-          "bg": "#305496",
+          "bg": "#1f4e78",
           "color": "#ffffff",
           "bold": true
         },
         {
           "value": "Total RTD",
-          "bg": "#305496",
+          "bg": "#1f4e78",
           "color": "#ffffff",
           "bold": true
         },
         {
           "value": "Total Pick up \n(Omni+PPMP)",
-          "bg": "#305496",
+          "bg": "#1f4e78",
           "color": "#ffffff",
           "bold": true
         },
         {
           "value": "Planned DBD",
-          "bg": "#305496",
+          "bg": "#1f4e78",
           "color": "#ffffff",
           "bold": true
         },
         {
           "value": "Planned Pick Up",
-          "bg": "#305496",
+          "bg": "#1f4e78",
           "color": "#ffffff",
           "bold": true
         },
         {
           "value": "Seller on Holiday",
-          "bg": "#305496",
+          "bg": "#1f4e78",
           "color": "#ffffff",
           "bold": true
         },
         {
           "value": "Created but not Picked DBD view",
-          "bg": "#305496",
+          "bg": "#1f4e78",
           "color": "#ffffff",
           "bold": true
         },
         {
           "value": "Out for Pick up (Omni+PPMP)",
-          "bg": "#305496",
+          "bg": "#1f4e78",
           "color": "#ffffff",
           "bold": true
         },
         {
           "value": "EKL Reattempt DBD view",
-          "bg": "#305496",
+          "bg": "#1f4e78",
           "color": "#ffffff",
           "bold": true
         },
         {
           "value": "seller_reattempt_DBD_view",
-          "bg": "#305496",
+          "bg": "#1f4e78",
           "color": "#ffffff",
           "bold": true
         },
         {
           "value": "Picked not Dispatched",
-          "bg": "#305496",
+          "bg": "#1f4e78",
           "color": "#ffffff",
           "bold": true
         },
