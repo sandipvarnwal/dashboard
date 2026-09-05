@@ -225,19 +225,19 @@
         },
         {
           "value": "Dispatched but not received at MH",
-          "bg": "#305496",
+          "bg": "#1f4e78",
           "color": "#ffffff",
           "bold": true
         },
         {
           "value": "Received at MH",
-          "bg": "#305496",
+          "bg": "#1f4e78",
           "color": "#ffffff",
           "bold": true
         },
         {
           "value": "Created but not Picked DBD view\n%",
-          "bg": "#305496",
+          "bg": "#1f4e78",
           "color": "#ffffff",
           "bold": true
         }
