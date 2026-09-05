@@ -70,73 +70,81 @@
     }
 
     async function loadDashboard() {
-      try {
-        // Cache-busting URL parameter forces fresh data load
-        const response = await fetch('./data.json?v=' + new Date().getTime());
-        const allData = await response.json();
-        
-        const tabContainer = document.getElementById('tab-container');
-        const tablesWrapper = document.getElementById('tables-wrapper');
-        tabContainer.innerHTML = '';
-        tablesWrapper.innerHTML = '';
+  try {
+    // Append time to URL to force browser to ignore local cache
+    const response = await fetch('./data.json?t=' + new Date().getTime());
+    const jsonData = await response.json();
+    
+    const tabContainer = document.getElementById('tab-container');
+    const tablesWrapper = document.getElementById('tables-wrapper');
+    tabContainer.innerHTML = '';
+    tablesWrapper.innerHTML = '';
 
-        let isFirst = true;
-
-        for (const [sheetName, data] of Object.entries(allData)) {
-          const safeId = cleanId(sheetName);
-
-          // 1. Create Tab Button
-          const btn = document.createElement('button');
-          btn.className = 'tab-btn' + (isFirst ? ' active' : '');
-          btn.id = 'btn-' + safeId;
-          btn.textContent = sheetName;
-          btn.onclick = () => switchTab(safeId);
-          tabContainer.appendChild(btn);
-
-          // 2. Create Table Container
-          const container = document.createElement('div');
-          container.className = 'table-container' + (isFirst ? ' active' : '');
-          container.id = 'container-' + safeId;
-          
-          const table = document.createElement('table');
-          const frozenRows = (data && data.meta && data.meta.frozenRows) ? data.meta.frozenRows : 0;
-          const frozenCols = (data && data.meta && data.meta.frozenCols) ? data.meta.frozenCols : 0;
-
-          if (data && data.rows) {
-            data.rows.forEach((row, rIndex) => {
-              const tr = document.createElement('tr');
-              row.forEach((cell, cIndex) => {
-                const td = document.createElement('td');
-                td.textContent = cell.value;
-
-                // Apply Spreadsheet Styles
-                if (cell.bg) td.style.backgroundColor = cell.bg;
-                if (cell.color) td.style.color = cell.color;
-                if (cell.bold) td.style.fontWeight = 'bold';
-
-                // Apply Freeze Panes
-                if (rIndex < frozenRows) { 
-                  td.classList.add('freeze-row'); 
-                  td.style.top = `${rIndex * 33}px`; 
-                }
-                if (cIndex < frozenCols) { 
-                  td.classList.add('freeze-col'); 
-                  td.style.left = `${cIndex * 110}px`; 
-                }
-                tr.appendChild(td);
-              });
-              table.appendChild(tr);
-            });
-          }
-          
-          container.appendChild(table);
-          tablesWrapper.appendChild(container);
-          isFirst = false;
-        }
-      } catch (err) {
-        console.error('Error loading dashboard data:', err);
-      }
+    // Standardize single-sheet structure to multi-sheet format automatically
+    let allData = {};
+    if (jsonData.meta && jsonData.rows) {
+      allData["Dashboard"] = jsonData; 
+    } else {
+      allData = jsonData;
     }
+
+    let isFirst = true;
+
+    for (const [sheetName, data] of Object.entries(allData)) {
+      const safeId = cleanId(sheetName);
+
+      // 1. Create Tab Button
+      const btn = document.createElement('button');
+      btn.className = 'tab-btn' + (isFirst ? ' active' : '');
+      btn.id = 'btn-' + safeId;
+      btn.textContent = sheetName;
+      btn.onclick = () => switchTab(safeId);
+      tabContainer.appendChild(btn);
+
+      // 2. Create Table Container
+      const container = document.createElement('div');
+      container.className = 'table-container' + (isFirst ? ' active' : '');
+      container.id = 'container-' + safeId;
+      
+      const table = document.createElement('table');
+      const frozenRows = (data && data.meta && data.meta.frozenRows) ? data.meta.frozenRows : 0;
+      const frozenCols = (data && data.meta && data.meta.frozenCols) ? data.meta.frozenCols : 0;
+
+      if (data && data.rows) {
+        data.rows.forEach((row, rIndex) => {
+          const tr = document.createElement('tr');
+          row.forEach((cell, cIndex) => {
+            const td = document.createElement('td');
+            td.textContent = cell.value;
+
+            // Apply Spreadsheet Styles
+            if (cell.bg) td.style.backgroundColor = cell.bg;
+            if (cell.color) td.style.color = cell.color;
+            if (cell.bold) td.style.fontWeight = 'bold';
+
+            // Apply Freeze Panes
+            if (rIndex < frozenRows) { 
+              td.classList.add('freeze-row'); 
+              td.style.top = `${rIndex * 33}px`; 
+            }
+            if (cIndex < frozenCols) { 
+              td.classList.add('freeze-col'); 
+              td.style.left = `${cIndex * 110}px`; 
+            }
+            tr.appendChild(td);
+          });
+          table.appendChild(tr);
+        });
+      }
+      
+      container.appendChild(table);
+      tablesWrapper.appendChild(container);
+      isFirst = false;
+    }
+  } catch (err) {
+    console.error('Error loading dashboard data:', err);
+  }
+}
 
     loadDashboard();
   </script>
