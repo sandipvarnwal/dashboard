@@ -53,12 +53,17 @@
   <div id="tables-wrapper"></div>
 
   <script>
-    function switchTab(sheetName) {
+    // Helper function to convert sheet names with spaces into valid element IDs
+    function cleanId(str) {
+      return str.replace(/[^a-zA-Z0-9]/g, '_');
+    }
+
+    function switchTab(cleanSheetId) {
       document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
       document.querySelectorAll('.table-container').forEach(tc => tc.classList.remove('active'));
       
-      const targetBtn = document.getElementById('btn-' + CSS.escape(sheetName));
-      const targetContainer = document.getElementById('container-' + CSS.escape(sheetName));
+      const targetBtn = document.getElementById('btn-' + cleanSheetId);
+      const targetContainer = document.getElementById('container-' + cleanSheetId);
       
       if (targetBtn) targetBtn.classList.add('active');
       if (targetContainer) targetContainer.classList.add('active');
@@ -78,24 +83,26 @@
         let isFirst = true;
 
         for (const [sheetName, data] of Object.entries(allData)) {
+          const safeId = cleanId(sheetName);
+
           // 1. Create Tab Button
           const btn = document.createElement('button');
           btn.className = 'tab-btn' + (isFirst ? ' active' : '');
-          btn.id = 'btn-' + sheetName;
+          btn.id = 'btn-' + safeId;
           btn.textContent = sheetName;
-          btn.onclick = () => switchTab(sheetName);
+          btn.onclick = () => switchTab(safeId);
           tabContainer.appendChild(btn);
 
           // 2. Create Table Container
           const container = document.createElement('div');
           container.className = 'table-container' + (isFirst ? ' active' : '');
-          container.id = 'container-' + sheetName;
+          container.id = 'container-' + safeId;
           
           const table = document.createElement('table');
-          const frozenRows = (data.meta && data.meta.frozenRows) || 0;
-          const frozenCols = (data.meta && data.meta.frozenCols) || 0;
+          const frozenRows = (data && data.meta && data.meta.frozenRows) ? data.meta.frozenRows : 0;
+          const frozenCols = (data && data.meta && data.meta.frozenCols) ? data.meta.frozenCols : 0;
 
-          if (data.rows) {
+          if (data && data.rows) {
             data.rows.forEach((row, rIndex) => {
               const tr = document.createElement('tr');
               row.forEach((cell, cIndex) => {
