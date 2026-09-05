@@ -10739,7 +10739,7 @@
     "meta": {
       "displayName": "Top Sellers Not Picked",
       "frozenRows": 2,
-      "frozenCols": 1,
+      "frozenCols": 0,
       "columnWidths": [
         10,
         12,
