@@ -10,7 +10,7 @@
         14,
         6,
         7,
-        12,
+        9,
         8,
         8,
         6,
@@ -20,7 +20,7 @@
     "rows": [
       [
         {
-          "value": "Till 20:00 || 05 September",
+          "value": "Till 21:00 || 05 September",
           "bg": "#1f4e78",
           "color": "#ffffff",
           "bold": true,
@@ -179,7 +179,7 @@
           "bold": true
         },
         {
-          "value": 4513,
+          "value": 4514,
           "bg": "#b6d7a8",
           "color": "#000000",
           "bold": true
@@ -191,25 +191,25 @@
           "bold": true
         },
         {
-          "value": 391,
+          "value": 389,
           "bg": "#b6d7a8",
           "color": "#000000",
           "bold": true
         },
         {
-          "value": 0,
+          "value": 1,
           "bg": "#b6d7a8",
           "color": "#000000",
           "bold": true
         },
         {
-          "value": 222,
+          "value": 221,
           "bg": "#b6d7a8",
           "color": "#000000",
           "bold": true
         },
         {
-          "value": 2078,
+          "value": 2080,
           "bg": "#b6d7a8",
           "color": "#000000",
           "bold": true
@@ -261,7 +261,7 @@
           "bold": true
         },
         {
-          "value": 293,
+          "value": 291,
           "bg": "#fff2cc",
           "color": "#000000",
           "bold": true
@@ -279,7 +279,7 @@
           "bold": true
         },
         {
-          "value": 1627,
+          "value": 1629,
           "bg": "#fff2cc",
           "color": "#000000",
           "bold": true
@@ -328,7 +328,7 @@
           "bold": false
         },
         {
-          "value": 211,
+          "value": 210,
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
@@ -346,7 +346,7 @@
           "bold": false
         },
         {
-          "value": 519,
+          "value": 520,
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
@@ -576,25 +576,25 @@
           "bold": false
         },
         {
-          "value": 19,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 0,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 0,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
           "value": 18,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 0,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 0,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 19,
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
@@ -2133,7 +2133,7 @@
           "bold": true
         },
         {
-          "value": 101,
+          "value": 102,
           "bg": "#fff2cc",
           "color": "#000000",
           "bold": true
@@ -2151,13 +2151,13 @@
           "bold": true
         },
         {
-          "value": 0,
+          "value": 1,
           "bg": "#fff2cc",
           "color": "#000000",
           "bold": true
         },
         {
-          "value": 96,
+          "value": 95,
           "bg": "#fff2cc",
           "color": "#000000",
           "bold": true
@@ -2280,13 +2280,13 @@
           "bold": false
         },
         {
-          "value": 0,
+          "value": 1,
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
         },
         {
-          "value": 5,
+          "value": 4,
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
@@ -2696,7 +2696,7 @@
           "bold": false
         },
         {
-          "value": 3,
+          "value": 4,
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
@@ -3516,43 +3516,43 @@
           "bold": true
         },
         {
-          "value": 3206,
+          "value": 2785,
           "bg": "#b6d7a8",
           "color": "#000000",
           "bold": true
         },
         {
-          "value": 2622,
+          "value": 2245,
           "bg": "#b6d7a8",
           "color": "#000000",
           "bold": true
         },
         {
-          "value": 1120,
+          "value": 519,
           "bg": "#b6d7a8",
           "color": "#000000",
           "bold": true
         },
         {
-          "value": 67,
+          "value": 65,
           "bg": "#b6d7a8",
           "color": "#000000",
           "bold": true
         },
         {
-          "value": 561,
+          "value": 1348,
           "bg": "#b6d7a8",
           "color": "#000000",
           "bold": true
         },
         {
-          "value": 874,
+          "value": 313,
           "bg": "#b6d7a8",
           "color": "#000000",
           "bold": true
         },
         {
-          "value": 2622,
+          "value": 2245,
           "bg": "#b6d7a8",
           "color": "#000000",
           "bold": true
@@ -3566,696 +3566,6 @@
           "bold": true,
           "rowSpan": 55,
           "colSpan": 1
-        },
-        {
-          "value": "DindoliHub_STV_PL Total",
-          "bg": "#fff2cc",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "",
-          "bg": "#fff2cc",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "",
-          "bg": "#fff2cc",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": 820,
-          "bg": "#fff2cc",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": 708,
-          "bg": "#fff2cc",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": 95,
-          "bg": "#fff2cc",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": 4,
-          "bg": "#fff2cc",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": 42,
-          "bg": "#fff2cc",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": 567,
-          "bg": "#fff2cc",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": 708,
-          "bg": "#fff2cc",
-          "color": "#000000",
-          "bold": true
-        }
-      ],
-      [
-        {
-          "isCovered": true
-        },
-        {
-          "value": "DindoliHub_STV_PL",
-          "bg": "#cfe2f3",
-          "color": "#000000",
-          "bold": false,
-          "rowSpan": 10,
-          "colSpan": 1
-        },
-        {
-          "value": "0b72270ce6a6443d",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": "DEEMOON",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 569,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 558,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 24,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 0,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 0,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 534,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 558,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        }
-      ],
-      [
-        {
-          "isCovered": true
-        },
-        {
-          "isCovered": true
-        },
-        {
-          "value": "29893007220d447e",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": "SHREE NAMA FASHION",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 53,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 48,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 48,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 0,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 0,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 0,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 48,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        }
-      ],
-      [
-        {
-          "isCovered": true
-        },
-        {
-          "isCovered": true
-        },
-        {
-          "value": "2244b925c66445ae",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": "RUHI ENTERPRISE",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 25,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 21,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 0,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 0,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 21,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 0,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 21,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        }
-      ],
-      [
-        {
-          "isCovered": true
-        },
-        {
-          "isCovered": true
-        },
-        {
-          "value": "f690a9e349964599",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": "CHETAN ENTERPRISES",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 32,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 21,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 0,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 0,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 21,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 0,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 21,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        }
-      ],
-      [
-        {
-          "isCovered": true
-        },
-        {
-          "isCovered": true
-        },
-        {
-          "value": "db309bfba31c4d9c",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": "AASHVI DIGITAL",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 31,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 19,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 0,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 0,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 0,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 19,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 19,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        }
-      ],
-      [
-        {
-          "isCovered": true
-        },
-        {
-          "isCovered": true
-        },
-        {
-          "value": "d8dba4248b834cc3",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": "PVR FASHION",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 14,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 14,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 5,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 0,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 0,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 9,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 14,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        }
-      ],
-      [
-        {
-          "isCovered": true
-        },
-        {
-          "isCovered": true
-        },
-        {
-          "value": "075bc6d815a2415b",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": "THE WOOD WHITE INDIA",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 76,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 10,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 10,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 0,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 0,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 0,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 10,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        }
-      ],
-      [
-        {
-          "isCovered": true
-        },
-        {
-          "isCovered": true
-        },
-        {
-          "value": "d857844920fc4f52",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": "ELERIAWEAR",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 8,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 8,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 8,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 0,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 0,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 0,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 8,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        }
-      ],
-      [
-        {
-          "isCovered": true
-        },
-        {
-          "isCovered": true
-        },
-        {
-          "value": "3791163095db4f2b",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": "RADHA RANI COLLACTION",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 7,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 5,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 0,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 0,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 0,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 5,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 5,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        }
-      ],
-      [
-        {
-          "isCovered": true
-        },
-        {
-          "isCovered": true
-        },
-        {
-          "value": "966528c7e6894431",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": "(Not Found)",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 5,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 4,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 0,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 4,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 0,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 0,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 4,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        }
-      ],
-      [
-        {
-          "isCovered": true
         },
         {
           "value": "SingapurHub_STV_PL Total",
@@ -4276,25 +3586,19 @@
           "bold": true
         },
         {
-          "value": 694,
+          "value": 713,
           "bg": "#fff2cc",
           "color": "#000000",
           "bold": true
         },
         {
-          "value": 648,
+          "value": 644,
           "bg": "#fff2cc",
           "color": "#000000",
           "bold": true
         },
         {
-          "value": 509,
-          "bg": "#fff2cc",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": 0,
+          "value": 137,
           "bg": "#fff2cc",
           "color": "#000000",
           "bold": true
@@ -4306,13 +3610,19 @@
           "bold": true
         },
         {
-          "value": 139,
+          "value": 507,
           "bg": "#fff2cc",
           "color": "#000000",
           "bold": true
         },
         {
-          "value": 648,
+          "value": 0,
+          "bg": "#fff2cc",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": 644,
           "bg": "#fff2cc",
           "color": "#000000",
           "bold": true
@@ -4343,19 +3653,13 @@
           "bold": false
         },
         {
-          "value": 270,
+          "value": 268,
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
         },
         {
-          "value": 265,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 245,
+          "value": 263,
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
@@ -4373,13 +3677,19 @@
           "bold": false
         },
         {
-          "value": 20,
+          "value": 263,
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
         },
         {
-          "value": 265,
+          "value": 0,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 263,
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
@@ -4479,12 +3789,6 @@
           "bold": false
         },
         {
-          "value": 9,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
           "value": 0,
           "bg": "#ffffff",
           "color": "#000000",
@@ -4497,7 +3801,13 @@
           "bold": false
         },
         {
-          "value": 73,
+          "value": 82,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 0,
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
@@ -4541,19 +3851,19 @@
           "bold": false
         },
         {
+          "value": 0,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 0,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
           "value": 47,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 0,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 0,
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
@@ -4603,12 +3913,6 @@
           "bold": false
         },
         {
-          "value": 36,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
           "value": 0,
           "bg": "#ffffff",
           "color": "#000000",
@@ -4621,7 +3925,13 @@
           "bold": false
         },
         {
-          "value": 1,
+          "value": 37,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 0,
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
@@ -4653,19 +3963,13 @@
           "bold": false
         },
         {
-          "value": 36,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
           "value": 35,
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
         },
         {
-          "value": 35,
+          "value": 34,
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
@@ -4683,13 +3987,19 @@
           "bold": false
         },
         {
+          "value": 34,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
           "value": 0,
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
         },
         {
-          "value": 35,
+          "value": 34,
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
@@ -4777,19 +4087,13 @@
           "bold": false
         },
         {
-          "value": 34,
+          "value": 33,
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
         },
         {
-          "value": 25,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 0,
+          "value": 24,
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
@@ -4807,13 +4111,19 @@
           "bold": false
         },
         {
-          "value": 25,
+          "value": 24,
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
         },
         {
-          "value": 25,
+          "value": 0,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 24,
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
@@ -4901,7 +4211,7 @@
           "bold": false
         },
         {
-          "value": 32,
+          "value": 55,
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
@@ -4925,13 +4235,13 @@
           "bold": false
         },
         {
-          "value": 0,
+          "value": 20,
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
         },
         {
-          "value": 20,
+          "value": 0,
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
@@ -4984,13 +4294,13 @@
           "bold": true
         },
         {
-          "value": 63,
+          "value": 65,
           "bg": "#fff2cc",
           "color": "#000000",
           "bold": true
         },
         {
-          "value": 374,
+          "value": 372,
           "bg": "#fff2cc",
           "color": "#000000",
           "bold": true
@@ -5175,13 +4485,13 @@
           "bold": false
         },
         {
-          "value": 1,
+          "value": 3,
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
         },
         {
-          "value": 57,
+          "value": 55,
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
@@ -5656,19 +4966,19 @@
           "bold": true
         },
         {
-          "value": 556,
+          "value": 553,
           "bg": "#fff2cc",
           "color": "#000000",
           "bold": true
         },
         {
-          "value": 440,
+          "value": 437,
           "bg": "#fff2cc",
           "color": "#000000",
           "bold": true
         },
         {
-          "value": 233,
+          "value": 189,
           "bg": "#fff2cc",
           "color": "#000000",
           "bold": true
@@ -5680,19 +4990,19 @@
           "bold": true
         },
         {
-          "value": 145,
+          "value": 166,
           "bg": "#fff2cc",
           "color": "#000000",
           "bold": true
         },
         {
-          "value": 62,
+          "value": 82,
           "bg": "#fff2cc",
           "color": "#000000",
           "bold": true
         },
         {
-          "value": 440,
+          "value": 437,
           "bg": "#fff2cc",
           "color": "#000000",
           "bold": true
@@ -6045,12 +5355,6 @@
           "bold": false
         },
         {
-          "value": 25,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
           "value": 0,
           "bg": "#ffffff",
           "color": "#000000",
@@ -6073,65 +5377,9 @@
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
-        }
-      ],
-      [
-        {
-          "isCovered": true
         },
         {
-          "isCovered": true
-        },
-        {
-          "value": "6b0c08264f70412a",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": "DWARKESH ENTERPRISE",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 26,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 24,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 19,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 0,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 0,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 5,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 24,
+          "value": 25,
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
@@ -6269,6 +5517,68 @@
           "isCovered": true
         },
         {
+          "value": "6b0c08264f70412a",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": "DWARKESH ENTERPRISE",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 23,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 21,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 0,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 0,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 21,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 0,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 21,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        }
+      ],
+      [
+        {
+          "isCovered": true
+        },
+        {
+          "isCovered": true
+        },
+        {
           "value": "e339a12e947546cf",
           "bg": "#ffffff",
           "color": "#000000",
@@ -6346,25 +5656,19 @@
           "bold": true
         },
         {
-          "value": 447,
+          "value": 435,
           "bg": "#fff2cc",
           "color": "#000000",
           "bold": true
         },
         {
-          "value": 378,
+          "value": 376,
           "bg": "#fff2cc",
           "color": "#000000",
           "bold": true
         },
         {
-          "value": 272,
-          "bg": "#fff2cc",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": 0,
+          "value": 128,
           "bg": "#fff2cc",
           "color": "#000000",
           "bold": true
@@ -6376,13 +5680,19 @@
           "bold": true
         },
         {
-          "value": 106,
+          "value": 86,
           "bg": "#fff2cc",
           "color": "#000000",
           "bold": true
         },
         {
-          "value": 378,
+          "value": 162,
+          "bg": "#fff2cc",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": 376,
           "bg": "#fff2cc",
           "color": "#000000",
           "bold": true
@@ -6487,7 +5797,7 @@
           "bold": false
         },
         {
-          "value": 86,
+          "value": 14,
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
@@ -6505,7 +5815,7 @@
           "bold": false
         },
         {
-          "value": 0,
+          "value": 72,
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
@@ -6549,7 +5859,7 @@
           "bold": false
         },
         {
-          "value": 31,
+          "value": 7,
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
@@ -6567,7 +5877,7 @@
           "bold": false
         },
         {
-          "value": 0,
+          "value": 24,
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
@@ -6711,68 +6021,6 @@
           "isCovered": true
         },
         {
-          "value": "266a450451c84ee3",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": "SUPREME",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 49,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 26,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 1,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 0,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 0,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 25,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 26,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        }
-      ],
-      [
-        {
-          "isCovered": true
-        },
-        {
-          "isCovered": true
-        },
-        {
           "value": "faca72da98794a59",
           "bg": "#ffffff",
           "color": "#000000",
@@ -6797,6 +6045,62 @@
           "bold": false
         },
         {
+          "value": 0,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 0,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 26,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 0,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 26,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        }
+      ],
+      [
+        {
+          "isCovered": true
+        },
+        {
+          "isCovered": true
+        },
+        {
+          "value": "266a450451c84ee3",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": "SUPREME",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 48,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
           "value": 25,
           "bg": "#ffffff",
           "color": "#000000",
@@ -6815,13 +6119,19 @@
           "bold": false
         },
         {
-          "value": 1,
+          "value": 25,
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
         },
         {
-          "value": 26,
+          "value": 0,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 25,
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
@@ -6859,12 +6169,6 @@
           "bold": false
         },
         {
-          "value": 18,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
           "value": 0,
           "bg": "#ffffff",
           "color": "#000000",
@@ -6872,12 +6176,6 @@
         },
         {
           "value": 0,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 3,
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
@@ -6887,44 +6185,6 @@
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
-        }
-      ],
-      [
-        {
-          "isCovered": true
-        },
-        {
-          "isCovered": true
-        },
-        {
-          "value": "8e7123503fcf4420",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": "SHREEJI ENTERPRISE",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 25,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 15,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 4,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
         },
         {
           "value": 0,
@@ -6933,19 +6193,7 @@
           "bold": false
         },
         {
-          "value": 0,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 11,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 15,
+          "value": 21,
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
@@ -7015,6 +6263,758 @@
       ],
       [
         {
+          "isCovered": true
+        },
+        {
+          "isCovered": true
+        },
+        {
+          "value": "909d5bbfaa3e4976",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": "HET CREATION",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 14,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 14,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 0,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 0,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 14,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 0,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 14,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        }
+      ],
+      [
+        {
+          "isCovered": true
+        },
+        {
+          "value": "SuratTempHub_STV Total",
+          "bg": "#fff2cc",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "",
+          "bg": "#fff2cc",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "",
+          "bg": "#fff2cc",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": 395,
+          "bg": "#fff2cc",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": 340,
+          "bg": "#fff2cc",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": 54,
+          "bg": "#fff2cc",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": 0,
+          "bg": "#fff2cc",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": 217,
+          "bg": "#fff2cc",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": 69,
+          "bg": "#fff2cc",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": 340,
+          "bg": "#fff2cc",
+          "color": "#000000",
+          "bold": true
+        }
+      ],
+      [
+        {
+          "isCovered": true
+        },
+        {
+          "value": "SuratTempHub_STV",
+          "bg": "#cfe2f3",
+          "color": "#000000",
+          "bold": false,
+          "rowSpan": 10,
+          "colSpan": 1
+        },
+        {
+          "value": "44d2dce579df4cc8",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": "SETHIA CORP",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 156,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 139,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 0,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 0,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 139,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 0,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 139,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        }
+      ],
+      [
+        {
+          "isCovered": true
+        },
+        {
+          "isCovered": true
+        },
+        {
+          "value": "86a997acef734825",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": "Mayank Sethia",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 82,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 78,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 0,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 0,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 78,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 0,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 78,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        }
+      ],
+      [
+        {
+          "isCovered": true
+        },
+        {
+          "isCovered": true
+        },
+        {
+          "value": "22487f1b5c794842",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": "MADHAV ENTERPRISE",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 36,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 33,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 33,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 0,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 0,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 0,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 33,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        }
+      ],
+      [
+        {
+          "isCovered": true
+        },
+        {
+          "isCovered": true
+        },
+        {
+          "value": "1f580e9159bd4343",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": "Khodiyar Krupa Enterprise",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 31,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 28,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 0,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 0,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 0,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 28,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 28,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        }
+      ],
+      [
+        {
+          "isCovered": true
+        },
+        {
+          "isCovered": true
+        },
+        {
+          "value": "4f3dfc75f73d4005",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": "VRAJ PRACHIN AYURVED CHIKITSA KENDRA",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 30,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 24,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 0,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 0,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 0,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 24,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 24,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        }
+      ],
+      [
+        {
+          "isCovered": true
+        },
+        {
+          "isCovered": true
+        },
+        {
+          "value": "485893baaf764e99",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": "Morbinandan Enterprise",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 15,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 14,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 14,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 0,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 0,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 0,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 14,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        }
+      ],
+      [
+        {
+          "isCovered": true
+        },
+        {
+          "isCovered": true
+        },
+        {
+          "value": "f77381a891274b6f",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": "SHIVSHAKTI MEDI-PHARM",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 12,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 7,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 0,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 0,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 0,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 7,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 7,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        }
+      ],
+      [
+        {
+          "isCovered": true
+        },
+        {
+          "isCovered": true
+        },
+        {
+          "value": "951ffc4a74224a8e",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": "PRIME CHOICE",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 17,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 6,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 6,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 0,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 0,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 0,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 6,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        }
+      ],
+      [
+        {
+          "isCovered": true
+        },
+        {
+          "isCovered": true
+        },
+        {
+          "value": "e316026289c6484d",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": "BHAVARI KANWAR",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 11,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 6,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 1,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 0,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 0,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 5,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 6,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        }
+      ],
+      [
+        {
+          "isCovered": true
+        },
+        {
+          "isCovered": true
+        },
+        {
+          "value": "061c85702f804e67",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": "MANISHA NX",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 5,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 5,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 0,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 0,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 0,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 5,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 5,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        }
+      ],
+      [
+        {
           "value": "MP Total",
           "bg": "#b6d7a8",
           "color": "#000000",
@@ -7039,43 +7039,43 @@
           "bold": true
         },
         {
-          "value": 2962,
+          "value": 2674,
           "bg": "#b6d7a8",
           "color": "#000000",
           "bold": true
         },
         {
-          "value": 2061,
+          "value": 1782,
           "bg": "#b6d7a8",
           "color": "#000000",
           "bold": true
         },
         {
-          "value": 280,
+          "value": 254,
           "bg": "#b6d7a8",
           "color": "#000000",
           "bold": true
         },
         {
-          "value": 0,
+          "value": 40,
           "bg": "#b6d7a8",
           "color": "#000000",
           "bold": true
         },
         {
-          "value": 274,
+          "value": 329,
           "bg": "#b6d7a8",
           "color": "#000000",
           "bold": true
         },
         {
-          "value": 1507,
+          "value": 1159,
           "bg": "#b6d7a8",
           "color": "#000000",
           "bold": true
         },
         {
-          "value": 2061,
+          "value": 1782,
           "bg": "#b6d7a8",
           "color": "#000000",
           "bold": true
@@ -7109,13 +7109,13 @@
           "bold": true
         },
         {
-          "value": 1517,
+          "value": 1227,
           "bg": "#fff2cc",
           "color": "#000000",
           "bold": true
         },
         {
-          "value": 1257,
+          "value": 980,
           "bg": "#fff2cc",
           "color": "#000000",
           "bold": true
@@ -7139,13 +7139,13 @@
           "bold": true
         },
         {
-          "value": 1196,
+          "value": 919,
           "bg": "#fff2cc",
           "color": "#000000",
           "bold": true
         },
         {
-          "value": 1257,
+          "value": 980,
           "bg": "#fff2cc",
           "color": "#000000",
           "bold": true
@@ -7275,68 +7275,6 @@
         },
         {
           "value": 408,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        }
-      ],
-      [
-        {
-          "isCovered": true
-        },
-        {
-          "isCovered": true
-        },
-        {
-          "value": "8ffec4a87aff48ee",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": "RK STORE",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 292,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 279,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 0,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 0,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 0,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 279,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 279,
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
@@ -7765,6 +7703,68 @@
         },
         {
           "value": 0,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 2,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        }
+      ],
+      [
+        {
+          "isCovered": true
+        },
+        {
+          "isCovered": true
+        },
+        {
+          "value": "71ead207bfd24a52",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": "(Not Found)",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 2,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 2,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 0,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 0,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 0,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 2,
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
@@ -8241,7 +8241,7 @@
           "bold": true
         },
         {
-          "value": 302,
+          "value": 306,
           "bg": "#fff2cc",
           "color": "#000000",
           "bold": true
@@ -8253,7 +8253,7 @@
           "bold": true
         },
         {
-          "value": 82,
+          "value": 75,
           "bg": "#fff2cc",
           "color": "#000000",
           "bold": true
@@ -8265,13 +8265,13 @@
           "bold": true
         },
         {
-          "value": 0,
+          "value": 34,
           "bg": "#fff2cc",
           "color": "#000000",
           "bold": true
         },
         {
-          "value": 135,
+          "value": 108,
           "bg": "#fff2cc",
           "color": "#000000",
           "bold": true
@@ -8320,12 +8320,6 @@
           "bold": false
         },
         {
-          "value": 7,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
           "value": 0,
           "bg": "#ffffff",
           "color": "#000000",
@@ -8338,7 +8332,13 @@
           "bold": false
         },
         {
-          "value": 27,
+          "value": 34,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 0,
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
@@ -8804,7 +8804,7 @@
           "bold": false
         },
         {
-          "value": 19,
+          "value": 23,
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
@@ -8931,25 +8931,19 @@
           "bold": true
         },
         {
-          "value": 518,
+          "value": 516,
           "bg": "#fff2cc",
           "color": "#000000",
           "bold": true
         },
         {
-          "value": 184,
+          "value": 182,
           "bg": "#fff2cc",
           "color": "#000000",
           "bold": true
         },
         {
-          "value": 70,
-          "bg": "#fff2cc",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": 0,
+          "value": 51,
           "bg": "#fff2cc",
           "color": "#000000",
           "bold": true
@@ -8961,13 +8955,19 @@
           "bold": true
         },
         {
-          "value": 74,
+          "value": 61,
           "bg": "#fff2cc",
           "color": "#000000",
           "bold": true
         },
         {
-          "value": 184,
+          "value": 30,
+          "bg": "#fff2cc",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": 182,
           "bg": "#fff2cc",
           "color": "#000000",
           "bold": true
@@ -9134,7 +9134,13 @@
           "bold": false
         },
         {
-          "value": 6,
+          "value": 0,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 27,
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
@@ -9147,12 +9153,6 @@
         },
         {
           "value": 0,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 21,
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
@@ -9196,12 +9196,6 @@
           "bold": false
         },
         {
-          "value": 7,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
           "value": 0,
           "bg": "#ffffff",
           "color": "#000000",
@@ -9214,7 +9208,13 @@
           "bold": false
         },
         {
-          "value": 14,
+          "value": 21,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 0,
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
@@ -9308,19 +9308,25 @@
           "bold": false
         },
         {
-          "value": 15,
+          "value": 13,
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
         },
         {
-          "value": 15,
+          "value": 13,
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
         },
         {
-          "value": 6,
+          "value": 0,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 13,
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
@@ -9338,13 +9344,7 @@
           "bold": false
         },
         {
-          "value": 9,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 15,
+          "value": 13,
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
@@ -10314,43 +10314,43 @@
           "bold": true
         },
         {
-          "value": 3128,
+          "value": 2971,
           "bg": "#b6d7a8",
           "color": "#000000",
           "bold": true
         },
         {
-          "value": 1597,
+          "value": 1449,
           "bg": "#b6d7a8",
           "color": "#000000",
           "bold": true
         },
         {
-          "value": 390,
+          "value": 321,
           "bg": "#b6d7a8",
           "color": "#000000",
           "bold": true
         },
         {
-          "value": 0,
+          "value": 36,
           "bg": "#b6d7a8",
           "color": "#000000",
           "bold": true
         },
         {
-          "value": 0,
+          "value": 7,
           "bg": "#b6d7a8",
           "color": "#000000",
           "bold": true
         },
         {
-          "value": 1207,
+          "value": 1085,
           "bg": "#b6d7a8",
           "color": "#000000",
           "bold": true
         },
         {
-          "value": 1597,
+          "value": 1449,
           "bg": "#b6d7a8",
           "color": "#000000",
           "bold": true
@@ -11074,31 +11074,7 @@
           "bold": true
         },
         {
-          "value": 1520,
-          "bg": "#fff2cc",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": 606,
-          "bg": "#fff2cc",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": 148,
-          "bg": "#fff2cc",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": 0,
-          "bg": "#fff2cc",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": 0,
+          "value": 1362,
           "bg": "#fff2cc",
           "color": "#000000",
           "bold": true
@@ -11110,7 +11086,31 @@
           "bold": true
         },
         {
-          "value": 606,
+          "value": 82,
+          "bg": "#fff2cc",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": 36,
+          "bg": "#fff2cc",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": 0,
+          "bg": "#fff2cc",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": 340,
+          "bg": "#fff2cc",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": 458,
           "bg": "#fff2cc",
           "color": "#000000",
           "bold": true
@@ -11127,68 +11127,6 @@
           "bold": false,
           "rowSpan": 10,
           "colSpan": 1
-        },
-        {
-          "value": "de5f059ea1cb40fa",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": "PROVECTUS HEALTHCARE",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 183,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 173,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 29,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 0,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 0,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 144,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 173,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        }
-      ],
-      [
-        {
-          "isCovered": true
-        },
-        {
-          "isCovered": true
         },
         {
           "value": "703323008656431c",
@@ -11463,7 +11401,7 @@
           "bold": false
         },
         {
-          "value": 16,
+          "value": 15,
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
@@ -11481,7 +11419,7 @@
           "bold": false
         },
         {
-          "value": 20,
+          "value": 21,
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
@@ -11525,13 +11463,13 @@
           "bold": false
         },
         {
-          "value": 36,
+          "value": 0,
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
         },
         {
-          "value": 0,
+          "value": 36,
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
@@ -11736,6 +11674,68 @@
         },
         {
           "value": 29,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        }
+      ],
+      [
+        {
+          "isCovered": true
+        },
+        {
+          "isCovered": true
+        },
+        {
+          "value": "afd9b87635d64239",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": "PRADASHI MART PRIVATE LIMITED",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 25,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 25,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 0,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 0,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 0,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 25,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 25,
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
@@ -12454,7 +12454,7 @@
           "bold": true
         },
         {
-          "value": 83,
+          "value": 84,
           "bg": "#fff2cc",
           "color": "#000000",
           "bold": true
@@ -12466,7 +12466,7 @@
           "bold": true
         },
         {
-          "value": 22,
+          "value": 19,
           "bg": "#fff2cc",
           "color": "#000000",
           "bold": true
@@ -12478,13 +12478,13 @@
           "bold": true
         },
         {
-          "value": 0,
+          "value": 7,
           "bg": "#fff2cc",
           "color": "#000000",
           "bold": true
         },
         {
-          "value": 21,
+          "value": 17,
           "bg": "#fff2cc",
           "color": "#000000",
           "bold": true
@@ -12719,12 +12719,6 @@
           "bold": false
         },
         {
-          "value": 1,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
           "value": 0,
           "bg": "#ffffff",
           "color": "#000000",
@@ -12737,7 +12731,13 @@
           "bold": false
         },
         {
-          "value": 4,
+          "value": 5,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 0,
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
@@ -12893,7 +12893,7 @@
           "bold": false
         },
         {
-          "value": 13,
+          "value": 14,
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
@@ -12967,19 +12967,19 @@
           "bold": false
         },
         {
+          "value": 0,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 0,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
           "value": 2,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 0,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 0,
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
@@ -13837,43 +13837,43 @@
           "bold": true
         },
         {
-          "value": 800,
+          "value": 663,
           "bg": "#b6d7a8",
           "color": "#000000",
           "bold": true
         },
         {
-          "value": 598,
+          "value": 456,
           "bg": "#b6d7a8",
           "color": "#000000",
           "bold": true
         },
         {
-          "value": 140,
+          "value": 43,
           "bg": "#b6d7a8",
           "color": "#000000",
           "bold": true
         },
         {
-          "value": 32,
+          "value": 73,
           "bg": "#b6d7a8",
           "color": "#000000",
           "bold": true
         },
         {
-          "value": 278,
+          "value": 280,
           "bg": "#b6d7a8",
           "color": "#000000",
           "bold": true
         },
         {
-          "value": 148,
+          "value": 60,
           "bg": "#b6d7a8",
           "color": "#000000",
           "bold": true
         },
         {
-          "value": 598,
+          "value": 456,
           "bg": "#b6d7a8",
           "color": "#000000",
           "bold": true
@@ -13885,698 +13885,8 @@
           "bg": "#d9ead3",
           "color": "#000000",
           "bold": true,
-          "rowSpan": 46,
+          "rowSpan": 44,
           "colSpan": 1
-        },
-        {
-          "value": "AurangabadHub_IXU_PL Total",
-          "bg": "#fff2cc",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "",
-          "bg": "#fff2cc",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "",
-          "bg": "#fff2cc",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": 217,
-          "bg": "#fff2cc",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": 205,
-          "bg": "#fff2cc",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": 97,
-          "bg": "#fff2cc",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": 0,
-          "bg": "#fff2cc",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": 20,
-          "bg": "#fff2cc",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": 88,
-          "bg": "#fff2cc",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": 205,
-          "bg": "#fff2cc",
-          "color": "#000000",
-          "bold": true
-        }
-      ],
-      [
-        {
-          "isCovered": true
-        },
-        {
-          "value": "AurangabadHub_IXU_PL",
-          "bg": "#cfe2f3",
-          "color": "#000000",
-          "bold": false,
-          "rowSpan": 10,
-          "colSpan": 1
-        },
-        {
-          "value": "7937d9e5bca048e4",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": "SAKET PRAKASHAN PRIVATE LIMITED",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 110,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 105,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 46,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 0,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 0,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 59,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 105,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        }
-      ],
-      [
-        {
-          "isCovered": true
-        },
-        {
-          "isCovered": true
-        },
-        {
-          "value": "9b9cd4125f344921",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": "Uma Enterprises",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 39,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 39,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 39,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 0,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 0,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 0,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 39,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        }
-      ],
-      [
-        {
-          "isCovered": true
-        },
-        {
-          "isCovered": true
-        },
-        {
-          "value": "d952681fe96c4516",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": "SATYAM AQUA SOLUTIONS",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 28,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 24,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 0,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 0,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 20,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 4,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 24,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        }
-      ],
-      [
-        {
-          "isCovered": true
-        },
-        {
-          "isCovered": true
-        },
-        {
-          "value": "4f42b064f2ed41fd",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": "ACUPRESSURE HEALTH CARE SYSTEM AURANGABAD",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 11,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 11,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 2,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 0,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 0,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 9,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 11,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        }
-      ],
-      [
-        {
-          "isCovered": true
-        },
-        {
-          "isCovered": true
-        },
-        {
-          "value": "0a8fb24ece2f4ef7",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": "SMITA RETAIL & MARKETING",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 6,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 6,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 6,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 0,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 0,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 0,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 6,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        }
-      ],
-      [
-        {
-          "isCovered": true
-        },
-        {
-          "isCovered": true
-        },
-        {
-          "value": "da91c3bc55334c3e",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": "Global Online Publication",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 5,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 5,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 0,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 0,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 0,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 5,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 5,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        }
-      ],
-      [
-        {
-          "isCovered": true
-        },
-        {
-          "isCovered": true
-        },
-        {
-          "value": "10ddf7d42c094961",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": "RAJENDRA TRADING COMPANY",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 5,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 4,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 4,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 0,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 0,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 0,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 4,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        }
-      ],
-      [
-        {
-          "isCovered": true
-        },
-        {
-          "isCovered": true
-        },
-        {
-          "value": "aae0388bdb824042",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": "ROHIT GOPINATH MASLEKAR",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 4,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 4,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 0,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 0,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 0,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 4,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 4,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        }
-      ],
-      [
-        {
-          "isCovered": true
-        },
-        {
-          "isCovered": true
-        },
-        {
-          "value": "e5a5a42120ae4b38",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": "(Not Found)",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 4,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 4,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 0,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 0,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 0,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 4,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 4,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        }
-      ],
-      [
-        {
-          "isCovered": true
-        },
-        {
-          "isCovered": true
-        },
-        {
-          "value": "c2da2d6f9ec44d48",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": "MAULI ENTERPRISES +918007308561",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 5,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 3,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 0,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 0,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 0,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 3,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": 3,
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        }
-      ],
-      [
-        {
-          "isCovered": true
         },
         {
           "value": "ShukrawarpethHub_PL Total",
@@ -16079,6 +15389,572 @@
         },
         {
           "value": 71,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        }
+      ],
+      [
+        {
+          "isCovered": true
+        },
+        {
+          "value": "PhursungiHub_Pune_PL Total",
+          "bg": "#fff2cc",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "",
+          "bg": "#fff2cc",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "",
+          "bg": "#fff2cc",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": 80,
+          "bg": "#fff2cc",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": 63,
+          "bg": "#fff2cc",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": 0,
+          "bg": "#fff2cc",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": 41,
+          "bg": "#fff2cc",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": 22,
+          "bg": "#fff2cc",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": 0,
+          "bg": "#fff2cc",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": 63,
+          "bg": "#fff2cc",
+          "color": "#000000",
+          "bold": true
+        }
+      ],
+      [
+        {
+          "isCovered": true
+        },
+        {
+          "value": "PhursungiHub_Pune_PL",
+          "bg": "#cfe2f3",
+          "color": "#000000",
+          "bold": false,
+          "rowSpan": 8,
+          "colSpan": 1
+        },
+        {
+          "value": "b932585b4bf645bc",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": "VIVALDIS HEALTH AND FOODS PVT LTD",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 20,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 20,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 0,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 20,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 0,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 0,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 20,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        }
+      ],
+      [
+        {
+          "isCovered": true
+        },
+        {
+          "isCovered": true
+        },
+        {
+          "value": "9ae2a16c79ae40be",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": "KUNAL AGENCY",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 19,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 18,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 0,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 0,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 18,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 0,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 18,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        }
+      ],
+      [
+        {
+          "isCovered": true
+        },
+        {
+          "isCovered": true
+        },
+        {
+          "value": "5b0863ed9ee04f5f",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": "NUCGNEX LIFESCIENCES PRIVATE LIMITED",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 9,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 9,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 0,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 9,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 0,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 0,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 9,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        }
+      ],
+      [
+        {
+          "isCovered": true
+        },
+        {
+          "isCovered": true
+        },
+        {
+          "value": "1eb90c0c8a9c44d5",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": "SPLENZ PHARMACEUTICALS PRIVATE LIMITED",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 18,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 6,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 0,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 3,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 3,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 0,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 6,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        }
+      ],
+      [
+        {
+          "isCovered": true
+        },
+        {
+          "isCovered": true
+        },
+        {
+          "value": "8c9ed1e7df8846b5",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": "Raizing",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 5,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 5,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 0,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 5,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 0,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 0,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 5,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        }
+      ],
+      [
+        {
+          "isCovered": true
+        },
+        {
+          "isCovered": true
+        },
+        {
+          "value": "e42e495bb99545ce",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": "GOVIND MILK AND MILK PRODUCTS PVT LTD",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 6,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 3,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 0,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 3,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 0,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 0,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 3,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        }
+      ],
+      [
+        {
+          "isCovered": true
+        },
+        {
+          "isCovered": true
+        },
+        {
+          "value": "01f316f03199479d",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": "(Not Found)",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 1,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 1,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 0,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 0,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 1,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 0,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 1,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        }
+      ],
+      [
+        {
+          "isCovered": true
+        },
+        {
+          "isCovered": true
+        },
+        {
+          "value": "cafd4e380d2940ca",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": "SHAHENSHAH HERBAL INDUSTRIES",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 2,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 1,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 0,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 1,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 0,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 0,
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
+          "value": 1,
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
@@ -18250,7 +18126,7 @@
           "bold": true
         },
         {
-          "value": 94,
+          "value": 93,
           "bg": "#fff2cc",
           "color": "#000000",
           "bold": true
@@ -18689,7 +18565,7 @@
           "bold": false
         },
         {
-          "value": 23,
+          "value": 22,
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
@@ -18940,7 +18816,7 @@
           "bold": true
         },
         {
-          "value": 149,
+          "value": 150,
           "bg": "#fff2cc",
           "color": "#000000",
           "bold": true
@@ -19255,7 +19131,7 @@
           "bold": false
         },
         {
-          "value": 62,
+          "value": 63,
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
