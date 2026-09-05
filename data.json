@@ -21183,9 +21183,9 @@
       [
         {
           "value": "Surat Total",
-          "bg": "#ffffff",
+          "bg": "#b6d7a8",
           "color": "#000000",
-          "bold": false
+          "bold": true
         },
         {
           "value": "",
@@ -22023,9 +22023,9 @@
       [
         {
           "value": "MP Total",
-          "bg": "#ffffff",
+          "bg": "#b6d7a8",
           "color": "#000000",
-          "bold": false
+          "bold": true
         },
         {
           "value": "",
@@ -22863,9 +22863,9 @@
       [
         {
           "value": "ROGJ (ABD) Total",
-          "bg": "#ffffff",
+          "bg": "#b6d7a8",
           "color": "#000000",
-          "bold": false
+          "bold": true
         },
         {
           "value": "",
@@ -23759,9 +23759,9 @@
       [
         {
           "value": "Mumbai Total",
-          "bg": "#ffffff",
+          "bg": "#b6d7a8",
           "color": "#000000",
-          "bold": false
+          "bold": true
         },
         {
           "value": "",
@@ -24543,9 +24543,9 @@
       [
         {
           "value": "ROGJ (SAURASHTRA) Total",
-          "bg": "#ffffff",
+          "bg": "#b6d7a8",
           "color": "#000000",
-          "bold": false
+          "bold": true
         },
         {
           "value": "",
@@ -25943,9 +25943,9 @@
       [
         {
           "value": "ROMH Total",
-          "bg": "#ffffff",
+          "bg": "#b6d7a8",
           "color": "#000000",
-          "bold": false
+          "bold": true
         },
         {
           "value": "",
@@ -25999,9 +25999,9 @@
       [
         {
           "value": "Grand Total",
-          "bg": "#ffffff",
+          "bg": "#b6d7a8",
           "color": "#000000",
-          "bold": false
+          "bold": true
         },
         {
           "value": "",
