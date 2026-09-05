@@ -136,7 +136,7 @@
             for (let c = 0; c < maxCols; c++) {
               const charLimit = colWidths[c] || 12;
               // IMPROVEMENT: Wider multiplier to ensure long names fit easily
-              const px = Math.max((charLimit * 9) + 30, 90); 
+              const px = Math.max((charLimit * 7) + 30, 90); 
               pixelWidths[c] = px;
 
               if (c < frozenCols) {
