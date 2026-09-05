@@ -54,18 +54,18 @@
     td, th { 
       border-right: 1px solid #666666 !important; 
       border-bottom: 1px solid #666666 !important; 
-      padding: 6px 8px; 
-      font-size: 11px; 
-      line-height: 1.25;
+      padding: 8px 10px; /* Slightly increased padding */
+      font-size: 12px; /* Slightly increased font size */
+      line-height: 1.4;
       white-space: normal !important; 
-      word-break: break-word;
-      overflow-wrap: anywhere;
+      word-wrap: break-word !important; 
+      overflow: visible !important; /* Prevents text from hiding */
       vertical-align: middle;
     }
 
-    .freeze-row { position: sticky; z-index: 10; }
-    .freeze-col { position: sticky; z-index: 10; }
-    .freeze-row.freeze-col { z-index: 20; }
+    .freeze-row { position: sticky; z-index: 10; box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
+    .freeze-col { position: sticky; z-index: 10; box-shadow: 1px 0 2px rgba(0,0,0,0.05); }
+    .freeze-row.freeze-col { z-index: 20; box-shadow: 1px 1px 2px rgba(0,0,0,0.05); }
   </style>
 </head>
 <body>
@@ -135,7 +135,8 @@
 
             for (let c = 0; c < maxCols; c++) {
               const charLimit = colWidths[c] || 12;
-              const px = Math.max((charLimit * 7) + 20, 90); 
+              // IMPROVEMENT: Wider multiplier to ensure long names fit easily
+              const px = Math.max((charLimit * 9) + 30, 90); 
               pixelWidths[c] = px;
 
               if (c < frozenCols) {
@@ -170,7 +171,7 @@
                 if (!cell.colSpan || cell.colSpan === 1) {
                   td.style.width = `${pixelWidths[cIndex]}px`;
                   td.style.minWidth = `${pixelWidths[cIndex]}px`;
-                  td.style.maxWidth = `${pixelWidths[cIndex]}px`;
+                  // REMOVED maxWidth constraint so data doesn't clip
                 }
 
                 td.style.backgroundColor = (cell.bg && cell.bg !== '') ? cell.bg : '#ffffff';
@@ -179,7 +180,8 @@
 
                 if (rIndex < frozenRows) { 
                   td.classList.add('freeze-row'); 
-                  td.style.top = `${rIndex * 32}px`; 
+                  // Increased overlap calculation for slightly larger text
+                  td.style.top = `${rIndex * 36}px`; 
                 }
                 if (cIndex < frozenCols) { 
                   td.classList.add('freeze-col'); 
