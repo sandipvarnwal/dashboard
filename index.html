@@ -150,7 +150,7 @@
               const tr = document.createElement('tr');
               
               row.forEach((cell, cIndex) => {
-                // Ignore cells covered by merged ranges
+                // Skip covered cells in merged ranges
                 if (cell.isCovered) return;
 
                 const td = document.createElement('td');
