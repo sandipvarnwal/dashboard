@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dashboard</title>
+  <title>Operations Dashboard</title>
   <style>
     * { box-sizing: border-box; }
     body { 
@@ -45,11 +45,10 @@
     }
     .table-container.active { display: block; }
 
-    /* Key Fix: Enforce Fixed Table Layout */
     table { 
       border-collapse: separate; 
       border-spacing: 0; 
-      table-layout: fixed !important; /* Forces strict adherence to JS widths */
+      table-layout: fixed !important;
     }
     
     td, th { 
@@ -62,7 +61,7 @@
       word-break: break-word;
       overflow-wrap: anywhere;
       vertical-align: middle;
-      background-color: #ffffff; 
+      /* Default background removed so JS inline background-color always wins */
     }
 
     .freeze-row { position: sticky; z-index: 10; }
@@ -73,7 +72,7 @@
 <body>
 
   <div class="header-bar">
-    <h1 class="header-title">Dashboard</h1>
+    <h1 class="header-title">Operations Dashboard</h1>
     <div class="tabs" id="tab-container"></div>
   </div>
 
@@ -130,14 +129,13 @@
             let maxCols = 0;
             data.rows.forEach(r => { if(r.length > maxCols) maxCols = r.length; });
 
-            // Calculate pixel widths and left sticky positions
             let pixelWidths = [];
             let leftOffsets = [];
             let totalTableWidth = 0;
 
             for (let c = 0; c < maxCols; c++) {
               const charLimit = colWidths[c] || 12;
-              const px = (charLimit * 7) + 20; 
+              const px = Math.max((charLimit * 7) + 20, 90); 
               pixelWidths[c] = px;
 
               if (c < frozenCols) {
@@ -146,7 +144,6 @@
               totalTableWidth += px;
             }
 
-            // Explicitly force full scrollable table width
             table.style.width = `${totalTableWidth}px`;
 
             const colGroup = document.createElement('colgroup');
@@ -170,15 +167,15 @@
                 if (cell.rowSpan && cell.rowSpan > 1) td.rowSpan = cell.rowSpan;
                 if (cell.colSpan && cell.colSpan > 1) td.colSpan = cell.colSpan;
 
-                // Explicitly set width style directly on table cells
                 if (!cell.colSpan || cell.colSpan === 1) {
                   td.style.width = `${pixelWidths[cIndex]}px`;
                   td.style.minWidth = `${pixelWidths[cIndex]}px`;
                   td.style.maxWidth = `${pixelWidths[cIndex]}px`;
                 }
 
-                if (cell.bg && cell.bg !== '#ffffff') td.style.backgroundColor = cell.bg;
-                if (cell.color && cell.color !== '#000000') td.style.color = cell.color;
+                // Always apply exported cell background color directly
+                td.style.backgroundColor = (cell.bg && cell.bg !== '') ? cell.bg : '#ffffff';
+                if (cell.color && cell.color !== '') td.style.color = cell.color;
                 if (cell.bold) td.style.fontWeight = 'bold';
 
                 if (rIndex < frozenRows) { 
