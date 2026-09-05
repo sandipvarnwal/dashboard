@@ -2,7 +2,7 @@
   "Top Sellers Not Picked": {
     "meta": {
       "frozenRows": 2,
-      "frozenCols": 1
+      "frozenCols": 4
     },
     "rows": [
       [
@@ -22110,7 +22110,7 @@
   "REGION WISE": {
     "meta": {
       "frozenRows": 2,
-      "frozenCols": 1
+      "frozenCols": 2
     },
     "rows": [
       [
