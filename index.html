@@ -107,11 +107,12 @@
 
         for (const [sheetName, data] of Object.entries(allData)) {
           const safeId = cleanId(sheetName);
+          const tabLabel = (data && data.meta && data.meta.displayName) ? data.meta.displayName : sheetName;
 
           const btn = document.createElement('button');
           btn.className = 'tab-btn' + (isFirst ? ' active' : '');
           btn.id = 'btn-' + safeId;
-          btn.textContent = sheetName;
+          btn.textContent = tabLabel;
           btn.onclick = () => switchTab(safeId);
           tabContainer.appendChild(btn);
 
