@@ -55,7 +55,7 @@
   <script>
     async function loadDashboard() {
       try {
-        const response = await fetch('./data.json');
+       const response = await fetch('./data.json?v=' + new Date().getTime());
         const data = await response.json();
         
         const table = document.getElementById('sheet-table');
