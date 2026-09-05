@@ -16,7 +16,6 @@
     .header-bar { margin-bottom: 12px; }
     .header-title { font-size: 18px; font-weight: 700; color: #1a73e8; margin: 0 0 10px 0; }
     
-    /* Scrollable Tabs */
     .tabs { display: flex; gap: 8px; overflow-x: auto; padding-bottom: 4px; }
     .tab-btn { 
       padding: 8px 14px; 
@@ -34,7 +33,6 @@
       color: #ffffff; 
     }
 
-    /* Enables Native Touch Horizontal & Vertical Scrolling */
     .table-container { 
       width: 100%; 
       max-height: 80vh; 
@@ -47,27 +45,26 @@
     }
     .table-container.active { display: block; }
 
-    /* Prevents auto-compression on mobile screen */
+    /* Key Fix: Enforce Fixed Table Layout */
     table { 
       border-collapse: separate; 
       border-spacing: 0; 
-      min-width: max-content; /* Forces natural table width */
-      width: max-content;
+      table-layout: fixed !important; /* Forces strict adherence to JS widths */
     }
     
     td, th { 
       border-right: 1px solid #666666 !important; 
       border-bottom: 1px solid #666666 !important; 
-      padding: 8px 10px; 
-      font-size: 12px; 
-      line-height: 1.3;
+      padding: 6px 8px; 
+      font-size: 11px; 
+      line-height: 1.25;
       white-space: normal !important; 
-      word-break: normal; /* Prevents 1-letter vertical word breaks */
+      word-break: break-word;
+      overflow-wrap: anywhere;
       vertical-align: middle;
       background-color: #ffffff; 
     }
 
-    /* Fixed Sticky Freeze Panes */
     .freeze-row { position: sticky; z-index: 10; }
     .freeze-col { position: sticky; z-index: 10; }
     .freeze-row.freeze-col { z-index: 20; }
@@ -130,27 +127,33 @@
           const colWidths = (data && data.meta && data.meta.columnWidths) ? data.meta.columnWidths : [];
 
           if (data && data.rows && data.rows.length > 0) {
-            const colGroup = document.createElement('colgroup');
             let maxCols = 0;
             data.rows.forEach(r => { if(r.length > maxCols) maxCols = r.length; });
 
-            // Set minimum width per column so mobile touch-scroll is triggered smoothly
+            // Calculate pixel widths and left sticky positions
+            let pixelWidths = [];
             let leftOffsets = [];
-            let currentOffset = 0;
+            let totalTableWidth = 0;
 
             for (let c = 0; c < maxCols; c++) {
-              const col = document.createElement('col');
               const charLimit = colWidths[c] || 12;
-              
-              // Guarantee minimum width of 100px per column on mobile
-              const pixelWidth = Math.max((charLimit * 7) + 24, 100); 
-              col.style.width = `${pixelWidth}px`;
-              colGroup.appendChild(col);
+              const px = (charLimit * 7) + 20; 
+              pixelWidths[c] = px;
 
               if (c < frozenCols) {
-                leftOffsets[c] = currentOffset;
-                currentOffset += pixelWidth;
+                leftOffsets[c] = totalTableWidth;
               }
+              totalTableWidth += px;
+            }
+
+            // Explicitly force full scrollable table width
+            table.style.width = `${totalTableWidth}px`;
+
+            const colGroup = document.createElement('colgroup');
+            for (let c = 0; c < maxCols; c++) {
+              const col = document.createElement('col');
+              col.style.width = `${pixelWidths[c]}px`;
+              colGroup.appendChild(col);
             }
             table.appendChild(colGroup);
 
@@ -162,12 +165,17 @@
 
                 const td = document.createElement('td');
                 let cellVal = cell.value !== undefined ? String(cell.value) : '';
-                
-                // Keep words readable and prevent squishing
                 td.textContent = cellVal.replace(/_/g, '_ ');
 
                 if (cell.rowSpan && cell.rowSpan > 1) td.rowSpan = cell.rowSpan;
                 if (cell.colSpan && cell.colSpan > 1) td.colSpan = cell.colSpan;
+
+                // Explicitly set width style directly on table cells
+                if (!cell.colSpan || cell.colSpan === 1) {
+                  td.style.width = `${pixelWidths[cIndex]}px`;
+                  td.style.minWidth = `${pixelWidths[cIndex]}px`;
+                  td.style.maxWidth = `${pixelWidths[cIndex]}px`;
+                }
 
                 if (cell.bg && cell.bg !== '#ffffff') td.style.backgroundColor = cell.bg;
                 if (cell.color && cell.color !== '#000000') td.style.color = cell.color;
@@ -175,7 +183,7 @@
 
                 if (rIndex < frozenRows) { 
                   td.classList.add('freeze-row'); 
-                  td.style.top = `${rIndex * 34}px`; 
+                  td.style.top = `${rIndex * 32}px`; 
                 }
                 if (cIndex < frozenCols) { 
                   td.classList.add('freeze-col'); 
