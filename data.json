@@ -1452,694 +1452,6 @@
       ],
       [
         {
-          "value": "Sandip Mandole",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "24939",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "11596",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "12225",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "11110",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "32",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "170",
-          "bg": "#ffffff",
-          "color": "#980000",
-          "bold": true
-        },
-        {
-          "value": "10",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "162",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "741",
-          "bg": "#ffffff",
-          "color": "#cc0000",
-          "bold": true
-        },
-        {
-          "value": "5527",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "5583",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "0",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "1.39%",
-          "bg": "#fffefe",
-          "color": "#000000",
-          "bold": true
-        }
-      ],
-      [
-        {
-          "value": "Hrishi Kumar",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "107255",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "79757",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "81109",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "76754",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "772",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "1220",
-          "bg": "#ffffff",
-          "color": "#980000",
-          "bold": true
-        },
-        {
-          "value": "1704",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "80",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "579",
-          "bg": "#ffffff",
-          "color": "#cc0000",
-          "bold": true
-        },
-        {
-          "value": "17220",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "53832",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "5702",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "1.50%",
-          "bg": "#fffefe",
-          "color": "#000000",
-          "bold": true
-        }
-      ],
-      [
-        {
-          "value": "Rupak Bidkar",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "0",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "0",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "0",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "0",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "0",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "0",
-          "bg": "#ffffff",
-          "color": "#980000",
-          "bold": true
-        },
-        {
-          "value": "0",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "0",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "0",
-          "bg": "#ffffff",
-          "color": "#cc0000",
-          "bold": true
-        },
-        {
-          "value": "0",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "0",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "0",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "0.00%",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        }
-      ],
-      [
-        {
-          "value": "Devendra Dixit",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "69241",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "42329",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "41355",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "40085",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "48",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "120",
-          "bg": "#ffffff",
-          "color": "#980000",
-          "bold": true
-        },
-        {
-          "value": "452",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "142",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "508",
-          "bg": "#ffffff",
-          "color": "#cc0000",
-          "bold": true
-        },
-        {
-          "value": "23360",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "10429",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "6296",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "0.29%",
-          "bg": "#fffefe",
-          "color": "#000000",
-          "bold": true
-        }
-      ],
-      [
-        {
-          "value": "Pritesh Buch",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "90178",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "42601",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "47415",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "38343",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "504",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "3957",
-          "bg": "#ffffff",
-          "color": "#980000",
-          "bold": true
-        },
-        {
-          "value": "4200",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "238",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "173",
-          "bg": "#ffffff",
-          "color": "#cc0000",
-          "bold": true
-        },
-        {
-          "value": "27547",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "9742",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "1054",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "8.35%",
-          "bg": "#fef9f9",
-          "color": "#000000",
-          "bold": true
-        }
-      ],
-      [
-        {
-          "value": "Sanjay Kawar",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "63842",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "45673",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "44944",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "43580",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "635",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "40",
-          "bg": "#ffffff",
-          "color": "#980000",
-          "bold": true
-        },
-        {
-          "value": "0",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "161",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "528",
-          "bg": "#ffffff",
-          "color": "#cc0000",
-          "bold": true
-        },
-        {
-          "value": "234",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "24715",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "18631",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "0.09%",
-          "bg": "#e06666",
-          "color": "#000000",
-          "bold": true
-        }
-      ],
-      [
-        {
-          "value": "Rahul Vhatkar",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "106708",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "73390",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "74628",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "71199",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "155",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "101",
-          "bg": "#ffffff",
-          "color": "#980000",
-          "bold": true
-        },
-        {
-          "value": "145",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "205",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "2823",
-          "bg": "#ffffff",
-          "color": "#cc0000",
-          "bold": true
-        },
-        {
-          "value": "43",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "65516",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "5640",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "0.14%",
-          "bg": "#e16a6a",
-          "color": "#000000",
-          "bold": true
-        }
-      ],
-      [
-        {
-          "value": "Sarfaraz Shaikh",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "221566",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "155244",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "151090",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "148928",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "273",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "578",
-          "bg": "#ffffff",
-          "color": "#980000",
-          "bold": true
-        },
-        {
-          "value": "52",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "47",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "1212",
-          "bg": "#ffffff",
-          "color": "#cc0000",
-          "bold": true
-        },
-        {
-          "value": "8295",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "125275",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "15358",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "0.38%",
-          "bg": "#fffefe",
-          "color": "#000000",
-          "bold": true
-        }
-      ],
-      [
-        {
           "value": "Preet Dhaduk",
           "bg": "#ffffff",
           "color": "#000000",
@@ -2219,7 +1531,7 @@
         },
         {
           "value": "0.09%",
-          "bg": "#ffffff",
+          "bg": "#fffefe",
           "color": "#000000",
           "bold": true
         }
@@ -2312,6 +1624,522 @@
       ],
       [
         {
+          "value": "Sarfaraz Shaikh",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "221566",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "155244",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "151090",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "148928",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "273",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "578",
+          "bg": "#ffffff",
+          "color": "#980000",
+          "bold": true
+        },
+        {
+          "value": "52",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "47",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "1212",
+          "bg": "#ffffff",
+          "color": "#cc0000",
+          "bold": true
+        },
+        {
+          "value": "8295",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "125275",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "15358",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "0.38%",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        }
+      ],
+      [
+        {
+          "value": "Hrishi Kumar",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "107255",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "79757",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "81109",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "76754",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "772",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "1220",
+          "bg": "#ffffff",
+          "color": "#980000",
+          "bold": true
+        },
+        {
+          "value": "1704",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "80",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "579",
+          "bg": "#ffffff",
+          "color": "#cc0000",
+          "bold": true
+        },
+        {
+          "value": "17220",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "53832",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "5702",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "1.50%",
+          "bg": "#fffefe",
+          "color": "#000000",
+          "bold": true
+        }
+      ],
+      [
+        {
+          "value": "Rahul Vhatkar",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "106708",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "73390",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "74628",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "71199",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "155",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "101",
+          "bg": "#ffffff",
+          "color": "#980000",
+          "bold": true
+        },
+        {
+          "value": "145",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "205",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "2823",
+          "bg": "#ffffff",
+          "color": "#cc0000",
+          "bold": true
+        },
+        {
+          "value": "43",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "65516",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "5640",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "0.14%",
+          "bg": "#fef9f9",
+          "color": "#000000",
+          "bold": true
+        }
+      ],
+      [
+        {
+          "value": "Pritesh Buch",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "90178",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "42601",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "47415",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "38343",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "504",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "3957",
+          "bg": "#ffffff",
+          "color": "#980000",
+          "bold": true
+        },
+        {
+          "value": "4200",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "238",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "173",
+          "bg": "#ffffff",
+          "color": "#cc0000",
+          "bold": true
+        },
+        {
+          "value": "27547",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "9742",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "1054",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "8.35%",
+          "bg": "#e06666",
+          "color": "#000000",
+          "bold": true
+        }
+      ],
+      [
+        {
+          "value": "Devendra Dixit",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "69241",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "42329",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "41355",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "40085",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "48",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "120",
+          "bg": "#ffffff",
+          "color": "#980000",
+          "bold": true
+        },
+        {
+          "value": "452",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "142",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "508",
+          "bg": "#ffffff",
+          "color": "#cc0000",
+          "bold": true
+        },
+        {
+          "value": "23360",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "10429",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "6296",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "0.29%",
+          "bg": "#e16a6a",
+          "color": "#000000",
+          "bold": true
+        }
+      ],
+      [
+        {
+          "value": "Sanjay Kawar",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "63842",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "45673",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "44944",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "43580",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "635",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "40",
+          "bg": "#ffffff",
+          "color": "#980000",
+          "bold": true
+        },
+        {
+          "value": "0",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "161",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "528",
+          "bg": "#ffffff",
+          "color": "#cc0000",
+          "bold": true
+        },
+        {
+          "value": "234",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "24715",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "18631",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "0.09%",
+          "bg": "#fffefe",
+          "color": "#000000",
+          "bold": true
+        }
+      ],
+      [
+        {
           "value": "Harsh Shah",
           "bg": "#ffffff",
           "color": "#000000",
@@ -2385,6 +2213,178 @@
         },
         {
           "value": "2224",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "0.00%",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        }
+      ],
+      [
+        {
+          "value": "Sandip Mandole",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "24939",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "11596",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "12225",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "11110",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "32",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "170",
+          "bg": "#ffffff",
+          "color": "#980000",
+          "bold": true
+        },
+        {
+          "value": "10",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "162",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "741",
+          "bg": "#ffffff",
+          "color": "#cc0000",
+          "bold": true
+        },
+        {
+          "value": "5527",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "5583",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "0",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "1.39%",
+          "bg": "#fffefe",
+          "color": "#000000",
+          "bold": true
+        }
+      ],
+      [
+        {
+          "value": "Rupak Bidkar",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "0",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "0",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "0",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "0",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "0",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "0",
+          "bg": "#ffffff",
+          "color": "#980000",
+          "bold": true
+        },
+        {
+          "value": "0",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "0",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "0",
+          "bg": "#ffffff",
+          "color": "#cc0000",
+          "bold": true
+        },
+        {
+          "value": "0",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "0",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "0",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": true
@@ -2647,43 +2647,43 @@
       ],
       [
         {
-          "value": "Swapnil Borgaonkar (MH)",
+          "value": "Ashvani Bhatt",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": true
         },
         {
-          "value": "1776",
+          "value": "32258",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": true
         },
         {
-          "value": "883",
+          "value": "10786",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": true
         },
         {
-          "value": "1260",
+          "value": "23500",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": true
         },
         {
-          "value": "784",
+          "value": "10562",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": true
         },
         {
-          "value": "365",
+          "value": "19690",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": true
         },
         {
-          "value": "187",
+          "value": "70",
           "bg": "#ffffff",
           "color": "#ff0000",
           "bold": true
@@ -2695,7 +2695,87 @@
           "bold": true
         },
         {
-          "value": "21",
+          "value": "3",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "170",
+          "bg": "#ffffff",
+          "color": "#ff0000",
+          "bold": true
+        },
+        {
+          "value": "1273",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "0",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "0",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "0.30%",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        }
+      ],
+      [
+        {
+          "value": "Ashwarya Singh",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "30572",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "16027",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "17381",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "11275",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "10678",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "548",
+          "bg": "#ffffff",
+          "color": "#ff0000",
+          "bold": true
+        },
+        {
+          "value": "2",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": true
@@ -2703,11 +2783,17 @@
         {
           "value": "69",
           "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "537",
+          "bg": "#ffffff",
           "color": "#ff0000",
           "bold": true
         },
         {
-          "value": "360",
+          "value": "25",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": true
@@ -2725,7 +2811,7 @@
           "bold": true
         },
         {
-          "value": "14.84%",
+          "value": "3.15%",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": true
@@ -2819,49 +2905,55 @@
       ],
       [
         {
-          "value": "Ashwarya Singh",
+          "value": "Swapnil Borgaonkar (MH)",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": true
         },
         {
-          "value": "30572",
+          "value": "1776",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": true
         },
         {
-          "value": "16027",
+          "value": "883",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": true
         },
         {
-          "value": "17381",
+          "value": "1260",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": true
         },
         {
-          "value": "11275",
+          "value": "784",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": true
         },
         {
-          "value": "10678",
+          "value": "365",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": true
         },
         {
-          "value": "548",
+          "value": "187",
           "bg": "#ffffff",
           "color": "#ff0000",
           "bold": true
         },
         {
-          "value": "2",
+          "value": "0",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "21",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": true
@@ -2869,17 +2961,11 @@
         {
           "value": "69",
           "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "537",
-          "bg": "#ffffff",
           "color": "#ff0000",
           "bold": true
         },
         {
-          "value": "25",
+          "value": "360",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": true
@@ -2897,7 +2983,7 @@
           "bold": true
         },
         {
-          "value": "3.15%",
+          "value": "14.84%",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": true
@@ -3077,92 +3163,6 @@
       ],
       [
         {
-          "value": "Ashvani Bhatt",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "32258",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "10786",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "23500",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "10562",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "19690",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "70",
-          "bg": "#ffffff",
-          "color": "#ff0000",
-          "bold": true
-        },
-        {
-          "value": "0",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "3",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "170",
-          "bg": "#ffffff",
-          "color": "#ff0000",
-          "bold": true
-        },
-        {
-          "value": "1273",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "0",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "0",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "0.30%",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        }
-      ],
-      [
-        {
           "value": "RM",
           "bg": "#305496",
           "color": "#ffffff",
@@ -3249,6 +3249,92 @@
       ],
       [
         {
+          "value": "Pujnesh Tiwari",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "32258",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "10786",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "23500",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "10562",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "19690",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "70",
+          "bg": "#ffffff",
+          "color": "#ff0000",
+          "bold": true
+        },
+        {
+          "value": "0",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "3",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "170",
+          "bg": "#ffffff",
+          "color": "#ff0000",
+          "bold": true
+        },
+        {
+          "value": "1273",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "0",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "0",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "0.30%",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        }
+      ],
+      [
+        {
           "value": "Dixit Joshi",
           "bg": "#ffffff",
           "color": "#000000",
@@ -3328,6 +3414,178 @@
         },
         {
           "value": "2.39%",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        }
+      ],
+      [
+        {
+          "value": "Ashish Ghete",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "30572",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "16027",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "17381",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "11275",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "10678",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "548",
+          "bg": "#ffffff",
+          "color": "#ff0000",
+          "bold": true
+        },
+        {
+          "value": "2",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "69",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "537",
+          "bg": "#ffffff",
+          "color": "#ff0000",
+          "bold": true
+        },
+        {
+          "value": "25",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "0",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "0",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "3.15%",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        }
+      ],
+      [
+        {
+          "value": "Amit Dey",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "1823",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "961",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "1206",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "875",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "498",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "54",
+          "bg": "#ffffff",
+          "color": "#ff0000",
+          "bold": true
+        },
+        {
+          "value": "1",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "28",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "22",
+          "bg": "#ffffff",
+          "color": "#ff0000",
+          "bold": true
+        },
+        {
+          "value": "193",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "0",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "0",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": true
+        },
+        {
+          "value": "4.48%",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": true
@@ -3500,264 +3758,6 @@
         },
         {
           "value": "0.00%",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        }
-      ],
-      [
-        {
-          "value": "Amit Dey",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "1823",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "961",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "1206",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "875",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "498",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "54",
-          "bg": "#ffffff",
-          "color": "#ff0000",
-          "bold": true
-        },
-        {
-          "value": "1",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "28",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "22",
-          "bg": "#ffffff",
-          "color": "#ff0000",
-          "bold": true
-        },
-        {
-          "value": "193",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "0",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "0",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "4.48%",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        }
-      ],
-      [
-        {
-          "value": "Ashish Ghete",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "30572",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "16027",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "17381",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "11275",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "10678",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "548",
-          "bg": "#ffffff",
-          "color": "#ff0000",
-          "bold": true
-        },
-        {
-          "value": "2",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "69",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "537",
-          "bg": "#ffffff",
-          "color": "#ff0000",
-          "bold": true
-        },
-        {
-          "value": "25",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "0",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "0",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "3.15%",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        }
-      ],
-      [
-        {
-          "value": "Pujnesh Tiwari",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "32258",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "10786",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "23500",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "10562",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "19690",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "70",
-          "bg": "#ffffff",
-          "color": "#ff0000",
-          "bold": true
-        },
-        {
-          "value": "0",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "3",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "170",
-          "bg": "#ffffff",
-          "color": "#ff0000",
-          "bold": true
-        },
-        {
-          "value": "1273",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "0",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "0",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": true
-        },
-        {
-          "value": "0.30%",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": true
