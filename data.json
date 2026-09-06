@@ -2426,7 +2426,7 @@
     "rows": [
       [
         {
-          "value": "Till 20:00 || 06 September",
+          "value": "Till 21:00 || 06 September",
           "bg": "#fdc67c",
           "color": "#000000",
           "bold": true,
@@ -2481,61 +2481,61 @@
           "bold": true
         },
         {
-          "value": "75544",
+          "value": "75560",
           "bg": "#ffffff",
           "color": "#0000ff",
           "bold": true
         },
         {
-          "value": "32163",
+          "value": "32171",
           "bg": "#ffffff",
           "color": "#0000ff",
           "bold": true
         },
         {
-          "value": "49128",
+          "value": "49149",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": true
         },
         {
-          "value": "26037",
+          "value": "26043",
           "bg": "#ffffff",
           "color": "#0000ff",
           "bold": true
         },
         {
-          "value": "35261",
+          "value": "35241",
           "bg": "#ffffff",
           "color": "#38761d",
           "bold": true
         },
         {
-          "value": "1046",
+          "value": "987",
           "bg": "#f4cccc",
           "color": "#38761d",
           "bold": true
         },
         {
-          "value": "68",
+          "value": "49",
           "bg": "#ffffff",
           "color": "#38761d",
           "bold": true
         },
         {
-          "value": "90",
+          "value": "135",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": true
         },
         {
-          "value": "653",
+          "value": "837",
           "bg": "#f4cccc",
           "color": "#000000",
           "bold": true
         },
         {
-          "value": "8179",
+          "value": "4659",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": true
@@ -2653,7 +2653,7 @@
           "bold": true
         },
         {
-          "value": "1761",
+          "value": "1765",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": true
@@ -2665,7 +2665,7 @@
           "bold": true
         },
         {
-          "value": "1245",
+          "value": "1249",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": true
@@ -2683,7 +2683,7 @@
           "bold": true
         },
         {
-          "value": "172",
+          "value": "176",
           "bg": "#ffffff",
           "color": "#ff0000",
           "bold": true
@@ -2725,7 +2725,7 @@
           "bold": true
         },
         {
-          "value": "13.82%",
+          "value": "14.09%",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": true
@@ -2763,19 +2763,19 @@
           "bold": true
         },
         {
-          "value": "3992",
+          "value": "3990",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": true
         },
         {
-          "value": "169",
+          "value": "173",
           "bg": "#ffffff",
           "color": "#ff0000",
           "bold": true
         },
         {
-          "value": "48",
+          "value": "46",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": true
@@ -2793,7 +2793,7 @@
           "bold": true
         },
         {
-          "value": "1332",
+          "value": "1043",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": true
@@ -2811,7 +2811,7 @@
           "bold": true
         },
         {
-          "value": "2.90%",
+          "value": "2.96%",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": true
@@ -2825,7 +2825,7 @@
           "bold": true
         },
         {
-          "value": "30534",
+          "value": "30549",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": true
@@ -2837,7 +2837,7 @@
           "bold": true
         },
         {
-          "value": "17332",
+          "value": "17353",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": true
@@ -2849,37 +2849,37 @@
           "bold": true
         },
         {
-          "value": "10694",
+          "value": "10688",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": true
         },
         {
-          "value": "582",
+          "value": "516",
           "bg": "#ffffff",
           "color": "#ff0000",
           "bold": true
         },
         {
-          "value": "19",
+          "value": "2",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": true
         },
         {
-          "value": "29",
+          "value": "68",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": true
         },
         {
-          "value": "365",
+          "value": "538",
           "bg": "#ffffff",
           "color": "#ff0000",
           "bold": true
         },
         {
-          "value": "2300",
+          "value": "1072",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": true
@@ -2897,7 +2897,7 @@
           "bold": true
         },
         {
-          "value": "3.36%",
+          "value": "2.97%",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": true
@@ -2911,25 +2911,25 @@
           "bold": true
         },
         {
-          "value": "1815",
+          "value": "1820",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": true
         },
         {
-          "value": "954",
+          "value": "960",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": true
         },
         {
-          "value": "1199",
+          "value": "1204",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": true
         },
         {
-          "value": "869",
+          "value": "875",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": true
@@ -2941,7 +2941,7 @@
           "bold": true
         },
         {
-          "value": "55",
+          "value": "52",
           "bg": "#ffffff",
           "color": "#ff0000",
           "bold": true
@@ -2953,19 +2953,19 @@
           "bold": true
         },
         {
-          "value": "22",
+          "value": "28",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": true
         },
         {
-          "value": "18",
+          "value": "22",
           "bg": "#ffffff",
           "color": "#ff0000",
           "bold": true
         },
         {
-          "value": "248",
+          "value": "196",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": true
@@ -2983,7 +2983,7 @@
           "bold": true
         },
         {
-          "value": "4.59%",
+          "value": "4.32%",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": true
@@ -3083,19 +3083,19 @@
           "bold": true
         },
         {
-          "value": "32276",
+          "value": "32268",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": true
         },
         {
-          "value": "10784",
+          "value": "10786",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": true
         },
         {
-          "value": "23515",
+          "value": "23506",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": true
@@ -3107,13 +3107,13 @@
           "bold": true
         },
         {
-          "value": "19712",
+          "value": "19700",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": true
         },
         {
-          "value": "68",
+          "value": "70",
           "bg": "#ffffff",
           "color": "#ff0000",
           "bold": true
@@ -3131,13 +3131,13 @@
           "bold": true
         },
         {
-          "value": "161",
+          "value": "168",
           "bg": "#ffffff",
           "color": "#ff0000",
           "bold": true
         },
         {
-          "value": "3939",
+          "value": "1988",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": true
@@ -3155,7 +3155,7 @@
           "bold": true
         },
         {
-          "value": "0.29%",
+          "value": "0.30%",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": true
@@ -3169,61 +3169,61 @@
           "bold": true
         },
         {
-          "value": "75544",
+          "value": "75560",
           "bg": "#6fa8dc",
           "color": "#000000",
           "bold": true
         },
         {
-          "value": "32163",
+          "value": "32171",
           "bg": "#6fa8dc",
           "color": "#000000",
           "bold": true
         },
         {
-          "value": "49128",
+          "value": "49149",
           "bg": "#6fa8dc",
           "color": "#000000",
           "bold": true
         },
         {
-          "value": "26037",
+          "value": "26043",
           "bg": "#6fa8dc",
           "color": "#000000",
           "bold": true
         },
         {
-          "value": "35261",
+          "value": "35241",
           "bg": "#6fa8dc",
           "color": "#000000",
           "bold": true
         },
         {
-          "value": "1046",
+          "value": "987",
           "bg": "#6fa8dc",
           "color": "#ff0000",
           "bold": true
         },
         {
-          "value": "68",
+          "value": "49",
           "bg": "#6fa8dc",
           "color": "#000000",
           "bold": true
         },
         {
-          "value": "90",
+          "value": "135",
           "bg": "#6fa8dc",
           "color": "#000000",
           "bold": true
         },
         {
-          "value": "653",
+          "value": "837",
           "bg": "#6fa8dc",
           "color": "#ff0000",
           "bold": true
         },
         {
-          "value": "8179",
+          "value": "4659",
           "bg": "#6fa8dc",
           "color": "#000000",
           "bold": true
@@ -3241,7 +3241,7 @@
           "bold": true
         },
         {
-          "value": "2.13%",
+          "value": "2.01%",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": true
@@ -3279,19 +3279,19 @@
           "bold": true
         },
         {
-          "value": "3992",
+          "value": "3990",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": true
         },
         {
-          "value": "169",
+          "value": "173",
           "bg": "#ffffff",
           "color": "#ff0000",
           "bold": true
         },
         {
-          "value": "48",
+          "value": "46",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": true
@@ -3309,7 +3309,7 @@
           "bold": true
         },
         {
-          "value": "1332",
+          "value": "1043",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": true
@@ -3327,7 +3327,7 @@
           "bold": true
         },
         {
-          "value": "2.90%",
+          "value": "2.96%",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": true
@@ -3341,7 +3341,7 @@
           "bold": true
         },
         {
-          "value": "1761",
+          "value": "1765",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": true
@@ -3353,7 +3353,7 @@
           "bold": true
         },
         {
-          "value": "1245",
+          "value": "1249",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": true
@@ -3371,7 +3371,7 @@
           "bold": true
         },
         {
-          "value": "172",
+          "value": "176",
           "bg": "#ffffff",
           "color": "#ff0000",
           "bold": true
@@ -3413,7 +3413,7 @@
           "bold": true
         },
         {
-          "value": "13.82%",
+          "value": "14.09%",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": true
@@ -3513,25 +3513,25 @@
           "bold": true
         },
         {
-          "value": "1815",
+          "value": "1820",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": true
         },
         {
-          "value": "954",
+          "value": "960",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": true
         },
         {
-          "value": "1199",
+          "value": "1204",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": true
         },
         {
-          "value": "869",
+          "value": "875",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": true
@@ -3543,7 +3543,7 @@
           "bold": true
         },
         {
-          "value": "55",
+          "value": "52",
           "bg": "#ffffff",
           "color": "#ff0000",
           "bold": true
@@ -3555,19 +3555,19 @@
           "bold": true
         },
         {
-          "value": "22",
+          "value": "28",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": true
         },
         {
-          "value": "18",
+          "value": "22",
           "bg": "#ffffff",
           "color": "#ff0000",
           "bold": true
         },
         {
-          "value": "248",
+          "value": "196",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": true
@@ -3585,7 +3585,7 @@
           "bold": true
         },
         {
-          "value": "4.59%",
+          "value": "4.32%",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": true
@@ -3599,7 +3599,7 @@
           "bold": true
         },
         {
-          "value": "30534",
+          "value": "30549",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": true
@@ -3611,7 +3611,7 @@
           "bold": true
         },
         {
-          "value": "17332",
+          "value": "17353",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": true
@@ -3623,37 +3623,37 @@
           "bold": true
         },
         {
-          "value": "10694",
+          "value": "10688",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": true
         },
         {
-          "value": "582",
+          "value": "516",
           "bg": "#ffffff",
           "color": "#ff0000",
           "bold": true
         },
         {
-          "value": "19",
+          "value": "2",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": true
         },
         {
-          "value": "29",
+          "value": "68",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": true
         },
         {
-          "value": "365",
+          "value": "538",
           "bg": "#ffffff",
           "color": "#ff0000",
           "bold": true
         },
         {
-          "value": "2300",
+          "value": "1072",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": true
@@ -3671,7 +3671,7 @@
           "bold": true
         },
         {
-          "value": "3.36%",
+          "value": "2.97%",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": true
@@ -3685,19 +3685,19 @@
           "bold": true
         },
         {
-          "value": "32276",
+          "value": "32268",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": true
         },
         {
-          "value": "10784",
+          "value": "10786",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": true
         },
         {
-          "value": "23515",
+          "value": "23506",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": true
@@ -3709,13 +3709,13 @@
           "bold": true
         },
         {
-          "value": "19712",
+          "value": "19700",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": true
         },
         {
-          "value": "68",
+          "value": "70",
           "bg": "#ffffff",
           "color": "#ff0000",
           "bold": true
@@ -3733,13 +3733,13 @@
           "bold": true
         },
         {
-          "value": "161",
+          "value": "168",
           "bg": "#ffffff",
           "color": "#ff0000",
           "bold": true
         },
         {
-          "value": "3939",
+          "value": "1988",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": true
@@ -3757,7 +3757,7 @@
           "bold": true
         },
         {
-          "value": "0.29%",
+          "value": "0.30%",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": true
@@ -3771,61 +3771,61 @@
           "bold": true
         },
         {
-          "value": "75544",
+          "value": "75560",
           "bg": "#6fa8dc",
           "color": "#000000",
           "bold": true
         },
         {
-          "value": "32163",
+          "value": "32171",
           "bg": "#6fa8dc",
           "color": "#000000",
           "bold": true
         },
         {
-          "value": "49128",
+          "value": "49149",
           "bg": "#6fa8dc",
           "color": "#000000",
           "bold": true
         },
         {
-          "value": "26037",
+          "value": "26043",
           "bg": "#6fa8dc",
           "color": "#000000",
           "bold": true
         },
         {
-          "value": "35261",
+          "value": "35241",
           "bg": "#6fa8dc",
           "color": "#000000",
           "bold": true
         },
         {
-          "value": "1046",
+          "value": "987",
           "bg": "#6fa8dc",
           "color": "#ff0000",
           "bold": true
         },
         {
-          "value": "68",
+          "value": "49",
           "bg": "#6fa8dc",
           "color": "#000000",
           "bold": true
         },
         {
-          "value": "90",
+          "value": "135",
           "bg": "#6fa8dc",
           "color": "#000000",
           "bold": true
         },
         {
-          "value": "653",
+          "value": "837",
           "bg": "#6fa8dc",
           "color": "#ff0000",
           "bold": true
         },
         {
-          "value": "8179",
+          "value": "4659",
           "bg": "#6fa8dc",
           "color": "#000000",
           "bold": true
@@ -3843,7 +3843,7 @@
           "bold": true
         },
         {
-          "value": "2.13%",
+          "value": "2.01%",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": true
@@ -3857,7 +3857,7 @@
           "bold": true
         },
         {
-          "value": "1761",
+          "value": "1765",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": true
@@ -3869,7 +3869,7 @@
           "bold": true
         },
         {
-          "value": "1245",
+          "value": "1249",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": true
@@ -3887,7 +3887,7 @@
           "bold": true
         },
         {
-          "value": "172",
+          "value": "176",
           "bg": "#ffffff",
           "color": "#ff0000",
           "bold": true
@@ -3929,7 +3929,7 @@
           "bold": true
         },
         {
-          "value": "13.82%",
+          "value": "14.09%",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": true
@@ -3943,7 +3943,7 @@
           "bold": true
         },
         {
-          "value": "6829",
+          "value": "6831",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": true
@@ -3955,7 +3955,7 @@
           "bold": true
         },
         {
-          "value": "4586",
+          "value": "4588",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": true
@@ -3967,13 +3967,13 @@
           "bold": true
         },
         {
-          "value": "3059",
+          "value": "3057",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": true
         },
         {
-          "value": "76",
+          "value": "80",
           "bg": "#ffffff",
           "color": "#ff0000",
           "bold": true
@@ -3997,7 +3997,7 @@
           "bold": true
         },
         {
-          "value": "1035",
+          "value": "746",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": true
@@ -4015,7 +4015,7 @@
           "bold": true
         },
         {
-          "value": "1.66%",
+          "value": "1.74%",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": true
@@ -4115,25 +4115,25 @@
           "bold": true
         },
         {
-          "value": "1815",
+          "value": "1820",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": true
         },
         {
-          "value": "954",
+          "value": "960",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": true
         },
         {
-          "value": "1199",
+          "value": "1204",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": true
         },
         {
-          "value": "869",
+          "value": "875",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": true
@@ -4145,7 +4145,7 @@
           "bold": true
         },
         {
-          "value": "55",
+          "value": "52",
           "bg": "#ffffff",
           "color": "#ff0000",
           "bold": true
@@ -4157,19 +4157,19 @@
           "bold": true
         },
         {
-          "value": "22",
+          "value": "28",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": true
         },
         {
-          "value": "18",
+          "value": "22",
           "bg": "#ffffff",
           "color": "#ff0000",
           "bold": true
         },
         {
-          "value": "248",
+          "value": "196",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": true
@@ -4187,7 +4187,7 @@
           "bold": true
         },
         {
-          "value": "4.59%",
+          "value": "4.32%",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": true
@@ -4201,7 +4201,7 @@
           "bold": true
         },
         {
-          "value": "2329",
+          "value": "2327",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": true
@@ -4213,7 +4213,7 @@
           "bold": true
         },
         {
-          "value": "1251",
+          "value": "1249",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": true
@@ -4237,7 +4237,7 @@
           "bold": true
         },
         {
-          "value": "18",
+          "value": "16",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": true
@@ -4273,7 +4273,7 @@
           "bold": true
         },
         {
-          "value": "7.43%",
+          "value": "7.45%",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": true
@@ -4287,7 +4287,7 @@
           "bold": true
         },
         {
-          "value": "15699",
+          "value": "15691",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": true
@@ -4299,7 +4299,7 @@
           "bold": true
         },
         {
-          "value": "9244",
+          "value": "9240",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": true
@@ -4311,37 +4311,37 @@
           "bold": true
         },
         {
-          "value": "3692",
+          "value": "3690",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": true
         },
         {
-          "value": "191",
+          "value": "101",
           "bg": "#ffffff",
           "color": "#ff0000",
           "bold": true
         },
         {
-          "value": "17",
+          "value": "0",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": true
         },
         {
-          "value": "1",
+          "value": "40",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": true
         },
         {
-          "value": "46",
+          "value": "200",
           "bg": "#ffffff",
           "color": "#ff0000",
           "bold": true
         },
         {
-          "value": "834",
+          "value": "108",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": true
@@ -4359,7 +4359,7 @@
           "bold": true
         },
         {
-          "value": "2.07%",
+          "value": "1.09%",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": true
@@ -4373,7 +4373,7 @@
           "bold": true
         },
         {
-          "value": "14835",
+          "value": "14858",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": true
@@ -4385,7 +4385,7 @@
           "bold": true
         },
         {
-          "value": "8088",
+          "value": "8113",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": true
@@ -4397,13 +4397,13 @@
           "bold": true
         },
         {
-          "value": "7002",
+          "value": "6998",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": true
         },
         {
-          "value": "391",
+          "value": "415",
           "bg": "#ffffff",
           "color": "#ff0000",
           "bold": true
@@ -4421,13 +4421,13 @@
           "bold": true
         },
         {
-          "value": "319",
+          "value": "338",
           "bg": "#ffffff",
           "color": "#ff0000",
           "bold": true
         },
         {
-          "value": "1466",
+          "value": "964",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": true
@@ -4445,7 +4445,7 @@
           "bold": true
         },
         {
-          "value": "4.83%",
+          "value": "5.12%",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": true
@@ -4459,19 +4459,19 @@
           "bold": true
         },
         {
-          "value": "10723",
+          "value": "10715",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": true
         },
         {
-          "value": "2882",
+          "value": "2883",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": true
         },
         {
-          "value": "8385",
+          "value": "8376",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": true
@@ -4483,7 +4483,7 @@
           "bold": true
         },
         {
-          "value": "7495",
+          "value": "7486",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": true
@@ -4507,13 +4507,13 @@
           "bold": true
         },
         {
-          "value": "101",
+          "value": "108",
           "bg": "#ffffff",
           "color": "#ff0000",
           "bold": true
         },
         {
-          "value": "1305",
+          "value": "390",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": true
@@ -4545,7 +4545,7 @@
           "bold": true
         },
         {
-          "value": "9996",
+          "value": "9994",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": true
@@ -4557,7 +4557,7 @@
           "bold": true
         },
         {
-          "value": "5877",
+          "value": "5875",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": true
@@ -4569,7 +4569,7 @@
           "bold": true
         },
         {
-          "value": "5700",
+          "value": "5698",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": true
@@ -4599,7 +4599,7 @@
           "bold": true
         },
         {
-          "value": "1021",
+          "value": "387",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": true
@@ -4631,19 +4631,19 @@
           "bold": true
         },
         {
-          "value": "9289",
+          "value": "9291",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": true
         },
         {
-          "value": "2692",
+          "value": "2693",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": true
         },
         {
-          "value": "7225",
+          "value": "7227",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": true
@@ -4655,13 +4655,13 @@
           "bold": true
         },
         {
-          "value": "6015",
+          "value": "6014",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": true
         },
         {
-          "value": "11",
+          "value": "13",
           "bg": "#ffffff",
           "color": "#ff0000",
           "bold": true
@@ -4703,7 +4703,7 @@
           "bold": true
         },
         {
-          "value": "0.15%",
+          "value": "0.18%",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": true
@@ -4771,7 +4771,7 @@
           "bold": true
         },
         {
-          "value": "1226",
+          "value": "824",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": true
@@ -4824,7 +4824,7 @@
           "bold": true
         },
         {
-          "value": "MYE Till 20:00 || 06 September",
+          "value": "MYE Till 21:00 || 06 September",
           "bg": "#00ff00",
           "color": "#000000",
           "bold": true
@@ -5044,13 +5044,13 @@
           "bold": false
         },
         {
-          "value": "69176",
+          "value": "69174",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
         },
         {
-          "value": "39824",
+          "value": "39822",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
@@ -5130,7 +5130,7 @@
           "bold": false
         },
         {
-          "value": "184",
+          "value": "191",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
@@ -5212,13 +5212,13 @@
           "bold": false
         },
         {
-          "value": "59506",
+          "value": "59507",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
         },
         {
-          "value": "43357",
+          "value": "43359",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
@@ -5230,7 +5230,7 @@
           "bold": false
         },
         {
-          "value": "518",
+          "value": "520",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
@@ -5268,13 +5268,13 @@
           "bold": false
         },
         {
-          "value": "50952",
+          "value": "50951",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
         },
         {
-          "value": "35627",
+          "value": "35626",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
@@ -5380,13 +5380,13 @@
           "bold": false
         },
         {
-          "value": "40743",
+          "value": "40742",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
         },
         {
-          "value": "33520",
+          "value": "33519",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
@@ -5436,13 +5436,13 @@
           "bold": false
         },
         {
-          "value": "39491",
+          "value": "39490",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
         },
         {
-          "value": "25578",
+          "value": "25577",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
@@ -5492,7 +5492,7 @@
           "bold": false
         },
         {
-          "value": "36795",
+          "value": "36796",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
@@ -5504,7 +5504,7 @@
           "bold": false
         },
         {
-          "value": "31270",
+          "value": "31271",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
@@ -5604,19 +5604,19 @@
           "bold": false
         },
         {
-          "value": "30533",
+          "value": "30528",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
         },
         {
-          "value": "26604",
+          "value": "26598",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
         },
         {
-          "value": "23156",
+          "value": "23157",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
@@ -5884,25 +5884,25 @@
           "bold": false
         },
         {
-          "value": "736950",
+          "value": "736942",
           "bg": "#d9ead3",
           "color": "#000000",
           "bold": false
         },
         {
-          "value": "505574",
+          "value": "505565",
           "bg": "#d9ead3",
           "color": "#000000",
           "bold": false
         },
         {
-          "value": "501870",
+          "value": "501872",
           "bg": "#d9ead3",
           "color": "#000000",
           "bold": false
         },
         {
-          "value": "1533",
+          "value": "1535",
           "bg": "#d9ead3",
           "color": "#000000",
           "bold": false
@@ -5914,7 +5914,7 @@
           "bold": false
         },
         {
-          "value": "4177",
+          "value": "4184",
           "bg": "#d9ead3",
           "color": "#000000",
           "bold": false
@@ -5940,13 +5940,13 @@
           "bold": false
         },
         {
-          "value": "38646",
+          "value": "38647",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
         },
         {
-          "value": "31944",
+          "value": "31945",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
@@ -5958,7 +5958,7 @@
           "bold": false
         },
         {
-          "value": "247",
+          "value": "248",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
@@ -5996,13 +5996,13 @@
           "bold": false
         },
         {
-          "value": "38255",
+          "value": "38254",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
         },
         {
-          "value": "29840",
+          "value": "29839",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
@@ -6014,7 +6014,7 @@
           "bold": false
         },
         {
-          "value": "24",
+          "value": "23",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
@@ -6052,13 +6052,13 @@
           "bold": false
         },
         {
-          "value": "29283",
+          "value": "29274",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
         },
         {
-          "value": "18320",
+          "value": "18315",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
@@ -6070,25 +6070,25 @@
           "bold": false
         },
         {
-          "value": "159",
+          "value": "68",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
         },
         {
-          "value": "80",
+          "value": "119",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
         },
         {
-          "value": "200",
+          "value": "354",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
         },
         {
-          "value": "17",
+          "value": "0",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": true
@@ -6108,13 +6108,13 @@
           "bold": false
         },
         {
-          "value": "17506",
+          "value": "17513",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
         },
         {
-          "value": "10146",
+          "value": "10153",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
@@ -6126,7 +6126,7 @@
           "bold": false
         },
         {
-          "value": "58",
+          "value": "65",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
@@ -6164,13 +6164,13 @@
           "bold": false
         },
         {
-          "value": "15644",
+          "value": "15647",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
         },
         {
-          "value": "10591",
+          "value": "10595",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
@@ -6182,7 +6182,7 @@
           "bold": false
         },
         {
-          "value": "44",
+          "value": "48",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
@@ -6194,7 +6194,7 @@
           "bold": false
         },
         {
-          "value": "196",
+          "value": "201",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
@@ -6220,13 +6220,13 @@
           "bold": false
         },
         {
-          "value": "13293",
+          "value": "13301",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
         },
         {
-          "value": "8437",
+          "value": "8445",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
@@ -6238,7 +6238,7 @@
           "bold": false
         },
         {
-          "value": "49",
+          "value": "58",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
@@ -6276,13 +6276,13 @@
           "bold": false
         },
         {
-          "value": "11595",
+          "value": "11594",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
         },
         {
-          "value": "5749",
+          "value": "5748",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
@@ -6332,13 +6332,13 @@
           "bold": false
         },
         {
-          "value": "10852",
+          "value": "10855",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
         },
         {
-          "value": "8643",
+          "value": "8647",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
@@ -6362,7 +6362,7 @@
           "bold": false
         },
         {
-          "value": "101",
+          "value": "115",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
@@ -6388,13 +6388,13 @@
           "bold": false
         },
         {
-          "value": "9424",
+          "value": "9427",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
         },
         {
-          "value": "6458",
+          "value": "6461",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
@@ -6406,7 +6406,7 @@
           "bold": false
         },
         {
-          "value": "36",
+          "value": "39",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
@@ -6444,13 +6444,13 @@
           "bold": false
         },
         {
-          "value": "9161",
+          "value": "9162",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
         },
         {
-          "value": "4945",
+          "value": "4946",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
@@ -6462,7 +6462,7 @@
           "bold": false
         },
         {
-          "value": "29",
+          "value": "30",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
@@ -6500,13 +6500,13 @@
           "bold": false
         },
         {
-          "value": "2127",
+          "value": "2128",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
         },
         {
-          "value": "1083",
+          "value": "1084",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
@@ -6518,7 +6518,7 @@
           "bold": false
         },
         {
-          "value": "19",
+          "value": "20",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
@@ -6668,13 +6668,13 @@
           "bold": false
         },
         {
-          "value": "102",
+          "value": "101",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
         },
         {
-          "value": "9",
+          "value": "8",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
@@ -6780,13 +6780,13 @@
           "bold": false
         },
         {
-          "value": "197145",
+          "value": "197160",
           "bg": "#d9ead3",
           "color": "#000000",
           "bold": false
         },
         {
-          "value": "136940",
+          "value": "136961",
           "bg": "#d9ead3",
           "color": "#000000",
           "bold": false
@@ -6798,25 +6798,25 @@
           "bold": false
         },
         {
-          "value": "750",
+          "value": "684",
           "bg": "#d9ead3",
           "color": "#000000",
           "bold": false
         },
         {
-          "value": "388",
+          "value": "427",
           "bg": "#d9ead3",
           "color": "#000000",
           "bold": false
         },
         {
-          "value": "3684",
+          "value": "3857",
           "bg": "#d9ead3",
           "color": "#000000",
           "bold": false
         },
         {
-          "value": "214",
+          "value": "197",
           "bg": "#d9ead3",
           "color": "#000000",
           "bold": true
@@ -6892,13 +6892,13 @@
           "bold": false
         },
         {
-          "value": "30982",
+          "value": "30983",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
         },
         {
-          "value": "24471",
+          "value": "24472",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
@@ -6910,7 +6910,7 @@
           "bold": false
         },
         {
-          "value": "576",
+          "value": "577",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
@@ -6948,13 +6948,13 @@
           "bold": false
         },
         {
-          "value": "11602",
+          "value": "11603",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
         },
         {
-          "value": "6779",
+          "value": "6780",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
@@ -6966,7 +6966,7 @@
           "bold": false
         },
         {
-          "value": "58",
+          "value": "59",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
@@ -7116,13 +7116,13 @@
           "bold": false
         },
         {
-          "value": "7252",
+          "value": "7253",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
         },
         {
-          "value": "6512",
+          "value": "6513",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
@@ -7134,7 +7134,7 @@
           "bold": false
         },
         {
-          "value": "23",
+          "value": "24",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
@@ -7172,13 +7172,13 @@
           "bold": false
         },
         {
-          "value": "6825",
+          "value": "6826",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
         },
         {
-          "value": "5689",
+          "value": "5690",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
@@ -7190,7 +7190,7 @@
           "bold": false
         },
         {
-          "value": "14",
+          "value": "15",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
@@ -7228,13 +7228,13 @@
           "bold": false
         },
         {
-          "value": "1926",
+          "value": "1924",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
         },
         {
-          "value": "1830",
+          "value": "1828",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
@@ -7452,13 +7452,13 @@
           "bold": false
         },
         {
-          "value": "110831",
+          "value": "110833",
           "bg": "#d9ead3",
           "color": "#000000",
           "bold": false
         },
         {
-          "value": "85712",
+          "value": "85714",
           "bg": "#d9ead3",
           "color": "#000000",
           "bold": false
@@ -7470,7 +7470,7 @@
           "bold": false
         },
         {
-          "value": "1366",
+          "value": "1370",
           "bg": "#d9ead3",
           "color": "#000000",
           "bold": false
@@ -7788,13 +7788,13 @@
           "bold": false
         },
         {
-          "value": "1877",
+          "value": "1875",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
         },
         {
-          "value": "1288",
+          "value": "1286",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
@@ -7824,7 +7824,7 @@
           "bold": false
         },
         {
-          "value": "2",
+          "value": "0",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": true
@@ -8124,13 +8124,13 @@
           "bold": false
         },
         {
-          "value": "90237",
+          "value": "90235",
           "bg": "#d9ead3",
           "color": "#000000",
           "bold": false
         },
         {
-          "value": "48674",
+          "value": "48672",
           "bg": "#d9ead3",
           "color": "#000000",
           "bold": false
@@ -8160,7 +8160,7 @@
           "bold": false
         },
         {
-          "value": "5067",
+          "value": "5065",
           "bg": "#d9ead3",
           "color": "#000000",
           "bold": true
@@ -8180,13 +8180,13 @@
           "bold": false
         },
         {
-          "value": "22257",
+          "value": "22261",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
         },
         {
-          "value": "10465",
+          "value": "10469",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
@@ -8198,19 +8198,19 @@
           "bold": false
         },
         {
+          "value": "45",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "bold": false
+        },
+        {
           "value": "46",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
         },
         {
-          "value": "40",
-          "bg": "#ffffff",
-          "color": "#000000",
-          "bold": false
-        },
-        {
-          "value": "202",
+          "value": "201",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
@@ -8304,13 +8304,13 @@
           "bold": false
         },
         {
-          "value": "9036",
+          "value": "9042",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
         },
         {
-          "value": "37",
+          "value": "34",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
@@ -8322,7 +8322,7 @@
           "bold": false
         },
         {
-          "value": "232",
+          "value": "237",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
@@ -8404,13 +8404,13 @@
           "bold": false
         },
         {
-          "value": "2780",
+          "value": "2781",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
         },
         {
-          "value": "1270",
+          "value": "1271",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
@@ -8422,7 +8422,7 @@
           "bold": false
         },
         {
-          "value": "4",
+          "value": "5",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
@@ -8964,37 +8964,37 @@
           "bold": false
         },
         {
-          "value": "68360",
+          "value": "68365",
           "bg": "#d9ead3",
           "color": "#000000",
           "bold": false
         },
         {
-          "value": "42659",
+          "value": "42664",
           "bg": "#d9ead3",
           "color": "#000000",
           "bold": false
         },
         {
-          "value": "42505",
+          "value": "42511",
           "bg": "#d9ead3",
           "color": "#000000",
           "bold": false
         },
         {
-          "value": "341",
+          "value": "338",
           "bg": "#d9ead3",
           "color": "#000000",
           "bold": false
         },
         {
-          "value": "165",
+          "value": "171",
           "bg": "#d9ead3",
           "color": "#000000",
           "bold": false
         },
         {
-          "value": "474",
+          "value": "478",
           "bg": "#d9ead3",
           "color": "#000000",
           "bold": false
@@ -9020,13 +9020,13 @@
           "bold": false
         },
         {
-          "value": "3324",
+          "value": "3325",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
         },
         {
-          "value": "2536",
+          "value": "2537",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
@@ -9038,7 +9038,7 @@
           "bold": false
         },
         {
-          "value": "3",
+          "value": "4",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
@@ -9132,13 +9132,13 @@
           "bold": false
         },
         {
-          "value": "2921",
+          "value": "2924",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
         },
         {
-          "value": "1246",
+          "value": "1249",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
@@ -9150,7 +9150,7 @@
           "bold": false
         },
         {
-          "value": "130",
+          "value": "133",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
@@ -10308,13 +10308,13 @@
           "bold": false
         },
         {
-          "value": "24732",
+          "value": "24736",
           "bg": "#d9ead3",
           "color": "#000000",
           "bold": false
         },
         {
-          "value": "13483",
+          "value": "13487",
           "bg": "#d9ead3",
           "color": "#000000",
           "bold": false
@@ -10326,7 +10326,7 @@
           "bold": false
         },
         {
-          "value": "362",
+          "value": "366",
           "bg": "#d9ead3",
           "color": "#000000",
           "bold": false
@@ -10364,43 +10364,43 @@
           "bold": false
         },
         {
-          "value": "1228255",
+          "value": "1228271",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
         },
         {
-          "value": "833042",
+          "value": "833063",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
         },
         {
-          "value": "816050",
+          "value": "816058",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
         },
         {
-          "value": "8560",
+          "value": "8501",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
         },
         {
-          "value": "1104",
+          "value": "1149",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
         },
         {
-          "value": "9735",
+          "value": "9919",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": false
         },
         {
-          "value": "10329",
+          "value": "10310",
           "bg": "#ffffff",
           "color": "#000000",
           "bold": true
